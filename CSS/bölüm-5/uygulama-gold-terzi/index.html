@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gold Terzi</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/utils.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      /* Lightbox */
+      /* Lightbox */
+      .lightbox {
+        display: none;
+        position: fixed;
+        z-index: 999;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.9);
+        text-align: center;
+      }
+
+      .lightbox img {
+        max-width: 500px;
+        max-height: 500px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      .lightbox-close {
+        color: #fff;
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        font-size: 24px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <header id="home" class="main-header">
+      <div class="navbar">
+        <h1 class="brand">
+          <i class="fa-solid fa-scissors"></i>
+          <span>Gold</span> Terzi
+        </h1>
+        <nav>
+          <ul>
+            <li><a href="#home">Anasayfa</a></li>
+            <li><a href="#about">Hakkımızda</a></li>
+            <li><a href="#about2">Hizmetlerimiz</a></li>
+            <li><a href="iletisim.html">İletişim</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="content">
+        <h1><span style="color: var(--warning)">Gold</span> Terzi</h1>
+        <p>Kalitenin İşlemesi, Stilin Terzisi: Gold Terzi</p>
+        <a href="#services" class="btn btn-warning">
+          <i class="fa-solid fa-chevron-right" style="color: #ffffff"></i> Daha
+          Fazla Oku
+        </a>
+      </div>
+    </header>
+
+    <main>
+      <!-- services -->
+      <section id="services" class="icons bg-light">
+        <div class="flex-items">
+          <div>
+            <i class="fa-solid fa-ruler fa-2x"></i>
+            <div>
+              <h3>Paça Kısaltma</h3>
+            </div>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop fa-2x"></i>
+            <div>
+              <h3>Kot Daraltma</h3>
+            </div>
+          </div>
+          <div>
+            <i class="fa-solid fa-vest fa-2x"></i>
+            <div>
+              <h3>Fermuar Değiştirme</h3>
+            </div>
+          </div>
+          <div>
+            <i class="fa-solid fa-vest-patches fa-2x"></i>
+            <div>
+              <h3>Beden Daraltma</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- about -->
+      <div id="about" class="about flex-columns">
+        <div class="row">
+          <div class="column">
+            <div class="column-1">
+              <img src="img/about1.jpeg" alt="" />
+            </div>
+          </div>
+          <div class="column">
+            <div class="column-2 bg-secondary">
+              <h2>
+                <span style="color: var(--warning)">Gold</span> Terzi - Stil ve
+                Kalitenin Buluşma Noktası!
+              </h2>
+              <p>
+                Hayalinizdeki kıyafetler artık daha yakınınızda! Gold Terzi
+                olarak, tarzınıza ve ölçülerinize özel her türlü terzi
+                işlemlerini titizlikle gerçekleştiriyoruz. Yılların tecrübesi ve
+                uzman ekibimizle sizlere en üstün kalite ve memnuniyet garantisi
+                sunuyoruz.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- gallery -->
+      <section id="gallery" class="gallery flex-grid section-padding">
+        <header class="section-header">
+          <h2>Modanın Kalbine Yolculuk Yapın</h2>
+          <p>
+            Müşteri memnuniyeti bizim için her zaman öncelikli. Her bireyin
+            tarzı farklı olduğu gibi bedenleri de birbirinden farklıdır. Bu
+            nedenle, <span style="color: var(--warning)">Gold</span> Terzi
+            olarak her müşterimize kişiye özel yaklaşarak, isteklerinizi anlayıp
+            en iyi şekilde uyguluyoruz.
+          </p>
+        </header>
+        <div class="row">
+          <div class="column">
+            <img src="img/1.jpeg" alt="" onclick="openLightbox('img/1.jpeg')" />
+            <img src="img/2.jpeg" alt="" onclick="openLightbox('img/2.jpeg')" />
+          </div>
+          <div class="column">
+            <img src="img/3.jpg" alt="" onclick="openLightbox('img/3.jpg')" />
+            <img src="img/4.jpeg" alt="" onclick="openLightbox('img/4.jpeg')" />
+          </div>
+          <div class="column">
+            <img src="img/5.jpeg" alt="" onclick="openLightbox('img/5.jpeg')" />
+            <img src="img/6.jpeg" alt="" onclick="openLightbox('img/6.jpeg')" />
+          </div>
+          <div class="column">
+            <img src="img/7.jpg" alt="" onclick="openLightbox('img/7.jpg')" />
+            <img src="img/8.jpeg" alt="" onclick="openLightbox('img/8.jpeg')" />
+          </div>
+        </div>
+      </section>
+      <div class="lightbox" onclick="closeLightbox()">
+        <span class="lightbox-close">&times;</span>
+        <img src="" alt="" />
+      </div>
+
+      <div id="about2" class="about flex-columns flex-reverse">
+        <div class="row">
+          <div class="column">
+            <div class="column-1">
+              <img src="img/about2.jpg" alt="" />
+            </div>
+          </div>
+          <div class="column">
+            <div class="column-2 bg-primary">
+              <h2>Her Türlü Terzi İşlemiyle Yanınızdayız</h2>
+              <p>
+                <span style="color: var(--warning)">Gold</span> Terzi olarak,
+                pantolon, ceket, elbise, etek, gömlek ve daha birçok kıyafet
+                çeşidinde uzmanız. Düz dikişten en karmaşık işlemelere kadar her
+                türlü terzi işlemlerini büyük bir özenle gerçekleştiriyoruz.
+                Kıyafetlerinizdeki tamirat ve tadilat ihtiyaçlarınızı en kısa
+                sürede ve profesyonelce hallediyoruz.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer bg-light">
+      <!-- <div class="social">
+        <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+        <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+        <a href="#"><i class="fab fa-youtube fa-2x"></i></a>
+        <a href="#"><i class="fab fa-linkedin fa-2x"></i></a>
+      </div> -->
+      <p>Copyright &copy 2023 - Gold Terzi</p>
+    </footer>
+
+    <script>
+      function openLightbox(imageSrc) {
+        var lightbox = document.querySelector(".lightbox");
+        var lightboxImg = lightbox.querySelector("img");
+        lightboxImg.src = imageSrc;
+        lightbox.style.display = "block";
+        document.body.style.overflow = "hidden";
+      }
+
+      function closeLightbox() {
+        var lightbox = document.querySelector(".lightbox");
+        lightbox.style.display = "none";
+        document.body.style.overflow = "auto";
+      }
+    </script>
+  </body>
+</html>

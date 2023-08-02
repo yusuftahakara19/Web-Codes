@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      header,
+      footer {
+        background-color: #7b5cb1;
+        color: #feb444;
+        font-weight: bold;
+        font-size: 24px;
+        padding: 24px;
+      }
+      #col1 {
+        width: 20%;
+        float: left;
+        padding: 0;
+        margin: 0px;
+      }
+
+      .col1_row {
+        display: inline-block;
+        background-color: #4a1e57;
+        width: 90%;
+        height: 40px;
+        margin: 10px 10px 10px 0;
+        color: white;
+        padding: 10px;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 10px;
+      }
+      .col1_row:hover {
+        background-color: #7b5cb1;
+        color: #feb444;
+        border: #4a1e57;
+      }
+      #col2 {
+        width: 70%;
+        float: left;
+        padding: 10px;
+        margin-bottom: 2px;
+      }
+      .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+      }
+    </style>
+  </head>
+  <body>
+    <header>Header</header>
+    <main>
+      <div id="row" class="clearfix">
+        <div id="col1">
+          <a href="#" class="col1_row">HTML</a>
+          <a href="#" class="col1_row">Css</a>
+          <a href="#" class="col1_row">Javascript</a>
+        </div>
+        <div id="col2">
+          <div><h1 style="margin: 0">Komple Web Geliştirme Eğitimi</h1></div>
+
+          <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, sunt
+            doloribus velit similique porro fugiat obcaecati qui voluptas dicta
+            aperiam magni ut dolorum? Cupiditate enim incidunt obcaecati,
+            architecto veritatis eum!
+          </div>
+
+          <br />
+          <div>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia
+            nisi consectetur porro asperiores! Consequatur deserunt officia
+            dolorem cum. Unde dicta quas magnam quibusdam voluptatibus ab
+            molestias corporis vitae eveniet dolore.
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>Footer</footer>
+  </body>
+</html>

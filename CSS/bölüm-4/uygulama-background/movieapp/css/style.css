@@ -1,0 +1,248 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  font-family: "Tektur", cursive;
+}
+#showcase {
+  position: relative;
+  top: 70px;
+  background-image: linear-gradient(
+      to bottom right,
+      rgba(230, 255, 230, 0.1),
+      rgba(102, 255, 102, 0.1)
+    ),
+    url("../images/bg.jpeg");
+  background-position: center;
+  background-size: 100% 100%;
+  height: 80vh;
+  width: 100%;
+
+  background-attachment: fixed;
+}
+
+#showcase .content {
+  text-align: center;
+  background-color: rgba(50, 39, 42, 0.7);
+  padding: 50px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  border-radius: 10px;
+}
+
+#how-it-works {
+  background-color: white;
+  padding: 10px;
+  text-align: center;
+  position: relative;
+  top: 20px;
+}
+.main-header {
+  position: fixed;
+  height: 70px;
+  top: 0;
+  width: 100%;
+  background-color: #fc997c;
+  z-index: 9999;
+}
+.main-header__logo {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 21px;
+  padding: 20px;
+}
+.main-nav {
+  display: inline-block;
+  width: calc(100% - 150px);
+  text-align: right;
+}
+.main-nav__items {
+  list-style-type: none;
+}
+.main-nav__item::before {
+  content: "\2022";
+  color: white;
+}
+.main-nav__item {
+  padding: 10px;
+  display: inline-block;
+}
+
+.main-nav__item a {
+  text-decoration: none;
+  color: #fff;
+}
+.main-nav__item a:hover,
+.main-nav__item:hover::before {
+  color: #2e4c6d;
+}
+
+.main-nav__item:active::before,
+.main-nav__item a:active {
+  color: #fff;
+}
+
+.main-nav__item__login a {
+  color: #fff;
+  background-color: #2e4c6d;
+  padding: 4px 16px;
+  border-radius: 8px;
+  border: 2px solid #fff;
+}
+.main-nav__item__login::before {
+  content: none;
+}
+.main-nav__item__login a:hover {
+  color: #2e4c6d;
+  border: 2px solid #2e4c6d;
+  background-color: white;
+}
+.box {
+  display: inline-block;
+  width: 30%;
+  margin: 8px;
+  text-align: center;
+  padding: 16px;
+  /* border: 1px solid red; */
+}
+#how-it-works h2 {
+  color: #3e4555;
+  font-size: 30px;
+  font-weight: 600;
+}
+.boxes {
+  margin: 3px;
+}
+
+.icon h3 {
+  color: #3e4555;
+  font-size: 26px;
+}
+
+.icon i {
+  color: #3e4555;
+}
+#features {
+  background-color: #e9f4f6;
+  height: 300px;
+  margin: 10px;
+}
+
+#features__col1 {
+  display: inline-block;
+  width: 30%;
+  background-image: url("../images/features.jpeg");
+  height: 100%;
+  background-size: 100% 100%;
+}
+#features__col2 {
+  vertical-align: top;
+  /* margin: 20px; */
+  padding: 10px;
+  display: inline-block;
+  width: 60%;
+  height: 100%;
+}
+#col2__row2 {
+  margin-bottom: 10px;
+}
+#col2_button {
+  padding: 7px 15px;
+  display: inline-block;
+  margin-top: 40px;
+  background-color: #fc997c;
+  color: #fff;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+}
+#col2_button:hover {
+  background-color: #fff;
+  color: #fc997c;
+  border: 1px solid #fc997c;
+}
+.boxes i {
+  color: #fc997c;
+}
+.plans {
+  text-align: center;
+}
+.plan {
+  float: left;
+  /* margin: 1px; 
+*/
+  padding: 5px;
+  width: 33.3%;
+}
+.recommended_plan {
+  position: relative;
+  top: -20px;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.container {
+  margin: 40px auto;
+  width: 100%;
+}
+.padding {
+  background-color: #e9f4f6;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  transition: box-shadow 0.4s;
+}
+.padding:hover {
+  box-shadow: rgba(0, 0, 0, 0.3) 1.95px 1.95px 2.6px;
+}
+.plan__badge {
+  background-color: white;
+  color: #fc997c;
+  border-radius: 5px;
+  padding: 5px;
+}
+.recommended_plan {
+  background-color: #396eb0 !important;
+  color: white;
+}
+.plan__features {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.plan__features li {
+  margin: 6px auto;
+}
+footer i {
+  position: fixed;
+  bottom: 20px;
+  right: 15px;
+  color: #396eb0;
+  transition: color 0.5s;
+}
+footer i:hover {
+  color: #1f3c60;
+}
+.foot__nav {
+  text-align: center;
+  /* background-color: #fc997c; */
+  color: white;
+  box-sizing: border-box;
+  background-image: linear-gradient(to bottom, #fc997c, #fb6537);
+}
+.foot__nav__col {
+  display: inline-block;
+  text-align: center;
+  width: 32%;
+}

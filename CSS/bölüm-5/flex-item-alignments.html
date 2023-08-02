@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        margin: 0;
+      }
+      .container {
+        display: flex;
+        height: 100vh;
+        align-items: flex-end;
+        background-color: #034f84;
+      }
+
+      .item {
+        background-color: #f7786b;
+        padding: 30px;
+        color: #fff;
+        font-size: 25px;
+        margin: 20px;
+        transition: all 0.5s;
+      }
+      .item:hover {
+        box-shadow: 0px 7px 29px 0px rgba(100, 100, 111, 0.8);
+        padding: 40px;
+      }
+
+      .item-1 {
+        align-self: flex-start;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="item item-1">item 1</div>
+      <div class="item item-2">item 2</div>
+      <div class="item item-3">item 3</div>
+      <div class="item item-4">item 4</div>
+    </div>
+  </body>
+</html>

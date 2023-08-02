@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex Uygulaması</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      .head__title {
+        background-color: #c08b2f;
+        color: #fff;
+        text-align: center;
+        padding: 40px;
+      }
+      .head__nav {
+        background-color: black;
+        color: #fff;
+      }
+      .head__nav ul {
+        display: flex;
+        list-style-type: none;
+      }
+
+      @media (max-width: 500px) {
+        .head__nav ul {
+          display: block;
+        }
+      }
+      .head__nav ul a {
+        text-align: center;
+        display: block;
+        padding: 10px;
+        color: #fff;
+        text-decoration: none;
+      }
+      .head__nav ul a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+      main {
+        display: flex;
+        flex-direction: row-reverse;
+        height: 100vh;
+      }
+      section {
+        background-color: white;
+      }
+
+      @media (max-width: 500px) {
+        main {
+          display: block;
+        }
+      }
+      aside {
+        margin-left: auto;
+        background-color: #efefef;
+      }
+      section {
+        padding: 10px;
+        flex-grow: 1;
+      }
+      .new__img {
+        background-color: #a0a0a0;
+        height: 100px;
+        background: url("https://picsum.photos/100/200?random=1");
+        background-size: cover;
+      }
+
+      aside {
+        padding: 10px;
+      }
+      .aside__news__img {
+        height: 100px;
+        background-color: #a0a0a0;
+      }
+      .aside__news__box {
+        margin: 10px 0;
+        height: 30px;
+        background-color: #a0a0a0;
+      }
+      footer {
+        text-align: center;
+        padding: 20px;
+        background-color: goldenrod;
+      }
+    </style>
+  </head>
+  <body>
+    <head>
+      <div class="head__title">
+        <h1>Lorem, ipsum.</h1>
+        <h3>Lorem, ipsum dolor.</h3>
+      </div>
+      <nav class="head__nav">
+        <ul>
+          <li><a href="#">Link1</a></li>
+          <li><a href="#">Link2</a></li>
+          <li><a href="#">Link3</a></li>
+          <li><a href="#">Link4</a></li>
+        </ul>
+      </nav>
+    </head>
+
+    <main>
+      <aside>
+        <h3>Lorem, ipsum.</h3>
+        <div class="aside__news">
+          <div class="aside__news__img"></div>
+          <div class="aside__news__content">
+            Lorem ipsum, dolor sit amet consectetur adipisicing.
+          </div>
+          <div class="aside__news__box"></div>
+          <div class="aside__news__box"></div>
+          <div class="aside__news__box"></div>
+        </div>
+      </aside>
+      <section>
+        <h3>Lorem, ipsum.</h3>
+        <div class="news">
+          <div class="new__img"></div>
+          <div class="news__content">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore, et
+            ipsa aut fugit aspernatur sit mollitia ducimus iusto ea modi.
+          </div>
+        </div>
+        <div class="news">
+          <div class="new__img"></div>
+          <div class="news__content">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore, et
+            ipsa aut fugit aspernatur sit mollitia ducimus iusto ea modi.
+          </div>
+        </div>
+        <div class="news">
+          <div class="new__img"></div>
+          <div class="news__content">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore, et
+            ipsa aut fugit aspernatur sit mollitia ducimus iusto ea modi.
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Lorem, ipsum dolor.</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Deluxe Hotel</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/utils.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header id="home" class="main-header blog">
+      <div class="navbar">
+        <h1 class="brand">
+          <i class="fas fa-hotel"></i>
+          <span>Deluxe</span> Hotel
+        </h1>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#rooms">Rooms</a></li>
+            <li><a href="blogs.html">Blog</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="content">
+        <h1>Deluxe Hotel Blog</h1>
+      </div>
+    </header>
+
+    <main>
+      <!-- articles -->
+      <section class="articles">
+        <!-- about -->
+        <article class="article flex-columns">
+          <div class="row">
+            <div class="column">
+              <div class="column-1">
+                <img src="img/blog-1.jpeg" alt="" />
+              </div>
+            </div>
+            <div class="column">
+              <div class="column-2 bg-secondary">
+                <h2>Blog Title First</h2>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Amet, sunt.
+                </p>
+                <button class="btn btn-outline">Read More</button>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="article flex-columns">
+          <div class="row">
+            <div class="column">
+              <div class="column-1">
+                <img src="img/blog-2.jpeg" alt="" />
+              </div>
+            </div>
+            <div class="column">
+              <div class="column-2 bg-secondary">
+                <h2>Blog Title Second</h2>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Amet, sunt.
+                </p>
+                <button class="btn btn-outline">Read More</button>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="article flex-columns">
+          <div class="row">
+            <div class="column">
+              <div class="column-1">
+                <img src="img/blog-3.jpeg" alt="" />
+              </div>
+            </div>
+            <div class="column">
+              <div class="column-2 bg-secondary">
+                <h2>Blog Title Third</h2>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Amet, sunt.
+                </p>
+                <button class="btn btn-outline">Read More</button>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <footer class="footer bg-light">
+      <div class="social">
+        <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+        <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+        <a href="#"><i class="fab fa-youtube fa-2x"></i></a>
+        <a href="#"><i class="fab fa-linkedin fa-2x"></i></a>
+      </div>
+      <p>Copyright &copy 2025 - Hotel Site</p>
+    </footer>
+
+    <script>
+      document
+        .getElementById("successButton")
+        .addEventListener("click", function () {
+          document.getElementById("successPopup").style.display = "block";
+
+          // Popup'ı belirli bir süre sonra gizlemek için (örn. 3 saniye sonra):
+          setTimeout(function () {
+            document.getElementById("successPopup").style.display = "none";
+          }, 2000); // 3000 milisaniye = 3 saniye
+        });
+    </script>
+  </body>
+</html>
