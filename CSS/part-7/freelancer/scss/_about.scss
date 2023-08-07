@@ -1,0 +1,78 @@
+#about {
+  &__a {
+    // min-height: 100vh;
+    .info {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      gap: 1.2rem;
+
+      &__image {
+        border: 2px solid $light-color;
+        padding: 0.5rem;
+        border-radius: 10%;
+      }
+      &__bio {
+        border: 2px solid $light-color;
+        text-align: start;
+        padding: 0.8rem;
+        border-radius: 20px;
+      }
+      &__title {
+        text-align: center;
+      }
+    }
+  }
+
+  &__b {
+    .service-item {
+      position: relative;
+      display: flex;
+
+      flex-direction: column;
+      align-items: center;
+      justify-content: start;
+      border: 2px solid $light-color;
+      border-radius: 10px;
+      padding: 20px;
+      height: 350px;
+      gap: 2rem;
+      transition: box-shadow 0.3s ease-in-out;
+      &:hover {
+        box-shadow: 0px 4px 8px 4px rgba(0, 0, 0, 0.2);
+      }
+
+      img {
+        border-radius: 10px;
+      }
+    }
+
+    .owl-carousel {
+      padding: 30px;
+    }
+
+    .service-title {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      background-color: rgba(0, 0, 0, 0.7);
+      color: #fff;
+      padding: 10px;
+      margin: 0;
+      transform: translateY(100%);
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .service-description {
+      display: none;
+      margin: 0;
+    }
+
+    .service-item:hover .service-title {
+      transform: translateY(-100%);
+    }
+
+    .service-item:hover .service-description {
+      display: block;
+    }
+  }
+}

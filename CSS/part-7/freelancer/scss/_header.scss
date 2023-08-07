@@ -60,4 +60,10 @@
       display: block;
     }
   }
+
+  &__inner {
+    background: $bg-image no-repeat 60% 25% / cover;
+    height: 6rem;
+    border-bottom: 3px solid $primary-color;
+  }
 }
