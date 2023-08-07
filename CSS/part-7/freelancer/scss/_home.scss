@@ -1,0 +1,41 @@
+#home {
+  // home section a
+  &__a {
+    .skills {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1rem;
+      margin-bottom: 2.5rem;
+
+      i {
+        display: inline-block;
+        font-size: 4rem;
+        margin-bottom: 0.5rem;
+      }
+    }
+  }
+
+  &__b {
+    .container {
+      .profile {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 2rem;
+        i {
+          font-size: 3rem;
+          padding: 1rem;
+          margin: 0.4rem;
+          transition: transform 0.3s ease, box-shadow 0.3s ease; /* Geçiş süresi ve hızı ayarları */
+          border-radius: 10px; /* Kenar kıvrımlılığı (border radius) */
+
+          &:hover {
+            transform: scale(1.4); /* İlgili nesnenin boyutunu büyütme */
+            box-shadow: 0 0 8px rgba(0, 0, 0, 0.5); /* Gölge efekti: renk, yatay, dikey, bulanıklık (blur) */
+          }
+        }
+      }
+    }
+  }
+}
