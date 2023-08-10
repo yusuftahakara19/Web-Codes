@@ -1,0 +1,155 @@
+//tablets and smaller
+
+@media (max-width: 768px) {
+  #header {
+    &__home {
+      height: 30rem !important;
+
+      .header-content {
+        padding-top: 4rem !important;
+
+        h1 {
+          font-size: 2rem;
+        }
+      }
+    }
+  }
+  #about__a .info {
+    grid-template-columns: 1fr;
+  }
+  #projects .items {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #home__c .process {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+//mobile
+@media (max-width: 576px) {
+  #home {
+    &__a .skills {
+      grid-template-columns: repeat(1, 1fr) !important;
+    }
+    &__c .process {
+      grid-template-columns: repeat(2, 1fr) !important;
+    }
+  }
+  .lead {
+    font-size: 1.1rem !important;
+  }
+  .section-title {
+    font-size: 1.5rem !important;
+  }
+  #header {
+    &__home {
+      height: 25rem !important;
+      border-radius: 2px solid $primary-color;
+      background-position: 20% 30%;
+      .header-content {
+        padding-top: 2.5rem !important;
+
+        h1 {
+          font-size: 1.7rem;
+          padding: 2rem 1rem;
+        }
+        .btn-primary {
+          margin-top: 1rem !important;
+        }
+      }
+    }
+    &__inner {
+      height: 10rem !important;
+    }
+  }
+
+  .main-nav {
+    flex-direction: column;
+
+    align-items: center;
+    li {
+      padding: 1rem;
+    }
+  }
+  #main-footer {
+    text-align: center;
+    height: 10rem !important;
+
+    .footer-content {
+      height: 100% !important;
+      flex-direction: column !important;
+      justify-content: space-evenly !important;
+    }
+  }
+  #about__a .info {
+    grid-template-columns: 1fr;
+  }
+  #projects .items {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #contact {
+    &__a .form-fields {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
+
+@media (max-width: 425px) {
+  .lead {
+    font-size: 1.1rem !important;
+  }
+  .section-title {
+    font-size: 1.5rem !important;
+  }
+  #home {
+    &__a .skills {
+      grid-template-columns: repeat(1, 1fr) !important;
+    }
+    &__c .process {
+      grid-template-columns: repeat(1, 1fr) !important;
+    }
+  }
+  .main-nav {
+    flex-direction: column;
+
+    align-items: center;
+    li {
+      padding: 1rem;
+      a {
+        font-size: 0.8rem;
+      }
+    }
+
+    &__logo {
+      width: 50px !important;
+      height: 50px !important;
+    }
+  }
+  #main-footer {
+    text-align: center;
+    height: 10rem !important;
+
+    .footer-content {
+      height: 100% !important;
+      flex-direction: column !important;
+      justify-content: space-evenly !important;
+    }
+  }
+  #about__a .info {
+    grid-template-columns: 1fr;
+  }
+  #projects .items {
+    grid-template-columns: 1fr;
+  }
+  #contact {
+    &__a .form-fields {
+      display: flex;
+      flex-direction: column;
+    }
+    &__b .contact-info {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 2rem;
+    }
+  }
+}

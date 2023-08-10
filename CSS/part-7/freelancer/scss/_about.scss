@@ -1,4 +1,6 @@
 #about {
+  min-height: calc(100vh - 11rem);
+
   &__a {
     // min-height: 100vh;
     .info {

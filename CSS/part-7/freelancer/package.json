@@ -11,7 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "lightbox2": "^2.11.4",
+    "lightbox2": "^2.11.3",
     "owl.carousel": "^2.3.4",
     "sass": "^1.54.4"
   }
