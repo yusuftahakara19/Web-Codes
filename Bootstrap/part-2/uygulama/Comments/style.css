@@ -1,0 +1,33 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+#comments .content {
+  display: inline-flex;
+  align-items: center;
+  vertical-align: middle;
+}
+
+#comments .content img {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-right: 0.6rem;
+}
+
+#comments .content .fa-star {
+  font-size: 0.8rem;
+}
+
+#comments .checked {
+  color: orange;
+}
+
+#comments .btn-light:hover {
+  border-color: #c1c9d0;
+  color: #0d6efd;
+}
+
+#comments .form-control,
+.form-select {
+  background-color: #f9f9f9;
+}
