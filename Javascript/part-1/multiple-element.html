@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="card-header">
+      <h3 class="titleClass bold-title" id="title">To Do List</h3>
+    </div>
+
+    <ul id="task-list">
+      <li class="task">Görev 1</li>
+      <li class="task">Görev 2</li>
+      <li class="task">Görev 3</li>
+    </ul>
+    <ul id="task-list2">
+      <li class="task">Görev 5</li>
+      <li class="task">Görev 6</li>
+      <li class="task">Görev 7</li>
+    </ul>
+    <script>
+      let sonuc;
+      sonuc = document.getElementsByClassName("task");
+      sonuc = document.getElementsByClassName("task")[2];
+
+      // let taskList = document.getElementsByClassName("task");
+      // taskList = document.getElementsByTagName("li"); //tüm li elementlerini alacak. önce id'si task-list olana ulaşalım sonra li ye ulaşalım;
+
+      // ul = document.getElementById("task-list");
+      // taskList = ul.getElementsByTagName("li");
+
+      // başka bir yöntem de şudur :
+      taskList = document.querySelectorAll("#task-list li");
+
+      for (let i = 0; i < taskList.length; i++) {
+        console.log(taskList[i]);
+      }
+
+      let i = 0;
+      for (let task of taskList) {
+        i++;
+        task.style.color = "red";
+        task.innerText = "Item " + i;
+      }
+    </script>
+  </body>
+</html>
