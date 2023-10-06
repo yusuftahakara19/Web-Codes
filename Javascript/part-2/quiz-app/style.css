@@ -96,3 +96,36 @@
   font-weight: 500;
   margin-bottom: 10px;
 }
+
+/* timer  */
+
+.quiz_box header .timer {
+  background-color: #143f68;
+  color: #fff;
+  font-size: 15px;
+}
+
+.quiz_box header .timer .time_text {
+  font-size: 14px;
+}
+.quiz_box header .timer .time_second {
+  background-color: #f0a500;
+  border-radius: 3px;
+  padding: 3px;
+  margin-left: 3px;
+  width: 25px;
+  text-align: center;
+}
+
+.quiz_box header .time_line {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 4px;
+  width: 200px;
+  background: #f0a500;
+}
+
+.quiz_box header {
+  position: relative;
+}

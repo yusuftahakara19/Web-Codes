@@ -5,7 +5,14 @@ function UI() {
     (this.btn_next = document.querySelector(".next-btn")),
     (this.quiz_box = document.querySelector(".quiz_box"));
   this.option_list = document.querySelector(".option_list");
-  this.score_box = document.querySelector(".score_box");
+  (this.score_box = document.querySelector(".score_box")),
+    (this.time_text = document.querySelector(".time_text"));
+  this.time_second = document.querySelector(".time_second");
+  this.iconFalse = `<div class="icon"><i class="fas fa-times"></i></div>
+  `;
+  this.iconTrue = `<div class="icon"><i class="fas fa-check"></i></div>
+  `;
+  this.time_line = document.querySelector(".time_line");
 }
 
 UI.prototype.soruGoster = function (soru) {
