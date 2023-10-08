@@ -9,11 +9,14 @@ class MusicPlayer {
   }
 
   next() {
-    if (this.index + 1 != musicList.length) this.index++;
-    else this.index = 0;
+    if (this.index + 1 != musicList.length) {
+      this.index++;
+    } else {
+      this.index = 0;
+    }
   }
 
-  previous() {
+  prev() {
     if (this.index != 0) this.index--;
     else this.index = this.musicList.length - 1;
   }

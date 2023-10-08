@@ -1,5 +1,22 @@
-#controls i {
-  font-size: 2rem;
-  color: purple;
-  margin-right: 1.3rem;
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 20rem;
+}
+
+#music-list-ul li:hover {
+  cursor: pointer;
+}
+
+li.playing {
+  background-color: #0b5eb7;
+  color: white;
 }
