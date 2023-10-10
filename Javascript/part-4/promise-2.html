@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      console.log("start");
+
+      let serverStatus = false;
+
+      const login = (username, password) => {
+        return new Promise((resolve, reject) => {
+          setTimeout(() => {
+            resolve({ username: "ytkara", email: "info@ytkara.com" });
+          }, 2000);
+        });
+      };
+
+      const getPostByUserName = (username) => {
+        return new Promise((resolve, reject) => {
+          setTimeout(() => {
+            if (serverStatus) {
+              resolve(["post1", "post2", "post3"]);
+            } else {
+              reject("server offline post");
+            }
+          }, 2000);
+        });
+      };
+
+      const getPostDetails = (post) => {
+        return new Promise((resolve, reject) => {
+          setTimeout(() => {
+            resolve("post details");
+          }, 2000);
+        });
+      };
+
+      login("ytakara", "1234")
+        .then((user) => {
+          console.log(user);
+          return getPostByUserName(user.userName);
+        })
+        .then((posts) => {
+          console.log(posts);
+          return getPostDetails(posts[0]);
+        })
+        .then((post_detail) => {
+          console.log(post_detail);
+        })
+        .catch((err) => {
+          console.log(err);
+        });
+
+      //   login("ytkara","1234",(user) => {
+      //       console.log(user);
+      //       getPostByUserName(user.username, (list) => {
+      //         console.log(list);
+
+      //         getPostDetails(list[0], (details) => {
+      //           console.log(details);
+      //         });
+      //       });
+      //     },
+      //     error
+      //   );
+      //   const serverStatus = true;
+
+      //   const promise = new Promise((resolve, reject) => {
+      //     setTimeout(() => {
+      //       if (serverStatus) {
+      //         resolve({ username: "ytkara", email: "info@ytkara.com" });
+      //       } else {
+      //         reject("login error");
+      //       }
+      //     }, 2000);
+      //   });
+
+      //   promise
+      //     .then((user) => {
+      //       console.log(user);
+      //     })
+      //     .catch((error) => {
+      //       console.log(error);
+      //     });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      //   console.log("start");
+
+      //   let serverStatus = false;
+      //   const login = (username, password, succesFn, errorFn) => {
+      //     setTimeout(() => {
+      //       if (serverStatus) {
+      //         succesFn({ username: username, email: "ytakara@kara.com" });
+      //       } else {
+      //         errorFn("server kapali");
+      //       }
+      //     }, 1000);
+      //   };
+
+      //   const getPostByUserName = (username, succesFn) => {
+      //     setTimeout(() => {
+      //       succesFn(["post1", "post2", "post3"]);
+      //     }, 1000);
+      //   };
+
+      //   const getPostDetails = (post, succesFn) => {
+      //     setTimeout(() => {
+      //       succesFn("post details");
+      //     }, 1000);
+      //   };
+
+      //   login(
+      //     "ytkara",
+      //     "1234",
+      //     (user) => {
+      //       console.log(user);
+
+      //       getPostByUserName(user.username, (list) => {
+      //         console.log(list);
+
+      //         getPostDetails(list[0], (details) => {
+      //           console.log(details);
+      //         });
+      //       });
+      //     },
+      //     error
+      //   );
+
+      //   function error(msg) {
+      //     console.log(msg);
+      //   }
+      //   console.log("end");
+
+      const serverStatus = true;
+
+      const promise = new Promise((resolve, reject) => {
+        setTimeout(() => {
+          if (serverStatus) {
+            resolve({ username: "ytkara", email: "info@ytkara.com" });
+          } else {
+            reject("login error");
+          }
+        }, 2000);
+      });
+
+      promise
+        .then((user) => {
+          console.log(user);
+        })
+        .catch((error) => {
+          console.log(error);
+        });
+    </script>
+  </body>
+</html>
