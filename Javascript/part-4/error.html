@@ -17,9 +17,14 @@
       .col-sm-4 img {
         height: 100px;
       }
+
+      #result {
+        opacity: 0;
+      }
     </style>
   </head>
   <body>
+    <div id="errors"></div>
     <div class="container my-3">
       <div class="card mb-3">
         <div class="card-body">
@@ -31,11 +36,13 @@
           </div>
         </div>
       </div>
-      <div class="card mb-3" id="country-details"></div>
-      <div class="card mb-3">
-        <div id="neighboring-countries-title" class="card-header"></div>
-        <div class="card-body">
-          <div class="row" id="neighbors"></div>
+      <div id="result">
+        <div class="card mb-3" id="country-details"></div>
+        <div class="card mb-3">
+          <div id="neighboring-countries-title" class="card-header"></div>
+          <div class="card-body">
+            <div class="row" id="neighbors"></div>
+          </div>
         </div>
       </div>
     </div>
@@ -43,25 +50,38 @@
     <script>
       document.querySelector("#btnSearch").addEventListener("click", () => {
         let text = document.querySelector("#txtSearch").value;
+        document.querySelector("#result").style.opacity = 0;
         getCountry(text);
       });
 
       const getCountry = (country) => {
         fetch(`https://restcountries.com/v3.1/name/${country}`)
-          .then((response) => response.json())
+          .then((response) => {
+            if (!response.ok) throw new Error("Ülke bulunamadı...");
+            return response.json();
+          })
           .then((data) => {
             renderCountry(data[0]);
-            let countries = data[0].borders.toString();
+            document.querySelector("#result").style.opacity = 1;
+            let countries = data[0].borders;
+            if (!countries) {
+              document.querySelector("#neighbors").innerHTML = "";
+              throw new Error("Komşu ülke bulunamadı");
+            }
             return fetch(
-              "https://restcountries.com/v3.1/alpha?codes=" + countries
-            )
-              .then((response) => response.json())
-              .then((data) => renderNeighbors(data));
+              "https://restcountries.com/v3.1/alpha?codes=" +
+                countries.toString()
+            );
+          })
+          .then((response) => response.json())
+          .then((data) => renderNeighbors(data))
+          .catch((err) => {
+            renderError(err);
           });
       };
 
       const renderCountry = (data) => {
-        let html = `      
+        let html = `
        <div class="card-header">Search Result</div>
         <div class="card-body">
           <div class="row">
@@ -113,12 +133,24 @@
                 </div>
 
                </div>
-            </div> 
+            </div>
 
             `;
         }
 
         document.querySelector("#neighbors").innerHTML = html;
+      };
+
+      const renderError = (err) => {
+        const html = `
+          <div class="alert alert-danger">
+            ${err.message}
+          </div>
+        `;
+        setTimeout(() => {
+          document.querySelector("#errors").innerHTML = "";
+        }, 1500);
+        document.querySelector("#errors").innerHTML = html;
       };
     </script>
     <script
