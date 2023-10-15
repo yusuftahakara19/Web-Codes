@@ -20,3 +20,5 @@ function getAverage2(...a: number[]): string {
 
   return "average : " + average;
 }
+
+const getAverage3 = (): void => {};
