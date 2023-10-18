@@ -1,0 +1,65 @@
+<product [product]="selectedProduct"></product>
+
+<!-- <div class="card mb-5 p-2 border border-warning" *ngIf="selectedProduct">
+  <div class="row">
+    <div class="col-3">
+      <img
+        src="../../assets/images/{{ selectedProduct.imageUrl }}"
+        alt=""
+        class="img-fluid rounded-start"
+      />
+    </div>
+    <div class="col-9">
+      <div class="card-body">
+        <div class="card-title">{{ selectedProduct.name }}</div>
+        <div class="card-text">
+          {{ selectedProduct.description }}
+        </div>
+        <button (click)="unSelectProduct()" class="btn btn-primary mt-4">
+          Seçimi Kaldır
+        </button>
+      </div>
+    </div>
+  </div>
+</div> -->
+
+<div *ngIf="products.length > 0; else noProducts">
+  <ng-template
+    [ngTemplateOutlet]="productList"
+    [ngTemplateOutletContext]="{ products: products }"
+  ></ng-template>
+</div>
+
+<ng-template #productList let-products="products">
+  <div *ngFor="let product of products">
+    <div *ngIf="product.isActive" class="card mb-3 p-2">
+      <div class="row">
+        <div class="col-3">
+          <img
+            src="../../assets/images/{{ product.imageUrl }}"
+            alt=""
+            class="img-fluid rounded-start"
+          />
+        </div>
+        <div class="col-9">
+          <div class="card-body">
+            <div class="card-title">{{ product.name }}</div>
+            <div class="card-text">
+              {{ product.description }}
+            </div>
+            <button
+              (click)="selectProduct(product)"
+              class="btn btn-primary mt-4"
+            >
+              Ürünü Seç
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</ng-template>
+
+<ng-template #noProducts>
+  <div class="alert alert-warning">no product</div>
+</ng-template>

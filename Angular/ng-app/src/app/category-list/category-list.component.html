@@ -1,0 +1,11 @@
+<div class="list-group">
+  <a
+    href="#"
+    class="list-group-item list-group-item-action"
+    *ngFor="let cat of categories"
+    (click)="selectCategory(cat)"
+    [class.active]="cat == selectedCategory"
+  >
+    {{ cat.name }}
+  </a>
+</div>
