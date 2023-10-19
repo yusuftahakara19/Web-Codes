@@ -1,4 +1,7 @@
-<product [product]="selectedProduct"></product>
+<!-- <product
+  [product]="selectedProduct"
+  (unSelectEvent)="unSelectProduct()"
+></product> -->
 
 <!-- <div class="card mb-5 p-2 border border-warning" *ngIf="selectedProduct">
   <div class="row">
@@ -47,12 +50,12 @@
             <div class="card-text">
               {{ product.description }}
             </div>
-            <button
-              (click)="selectProduct(product)"
+            <a
+              routerLink="/products/{{ product.id }}"
               class="btn btn-primary mt-4"
             >
               Ürünü Seç
-            </button>
+            </a>
           </div>
         </div>
       </div>

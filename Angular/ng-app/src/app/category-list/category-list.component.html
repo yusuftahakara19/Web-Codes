@@ -2,9 +2,19 @@
   <a
     href="#"
     class="list-group-item list-group-item-action"
+    [class.active]="displayAll"
+    routerLink="/products"
+    (click)="selectCategory()"
+  >
+    Tüm Kategoriler
+  </a>
+  <a
+    href="#"
+    class="list-group-item list-group-item-action"
     *ngFor="let cat of categories"
     (click)="selectCategory(cat)"
     [class.active]="cat == selectedCategory"
+    routerLink="/products/category/{{ cat.id }}"
   >
     {{ cat.name }}
   </a>

@@ -1,4 +1,4 @@
-<div class="card mb-5 p-2 border border-warning" *ngIf="product">
+<div class="card mb-5 p-2" *ngIf="product; else noProduct">
   <div class="row">
     <div class="col-3">
       <img
@@ -13,8 +13,11 @@
         <div class="card-text">
           {{ product.description }}
         </div>
-        <button class="btn btn-primary mt-4">Seçimi Kaldır</button>
       </div>
     </div>
   </div>
 </div>
+
+<ng-template #noProduct>
+  <div class="alert alert-warning">no product</div>
+</ng-template>
