@@ -8,7 +8,7 @@ import { ProductComponent } from './product-list/product/product.component';
 import { CategoryListComponent } from './category-list/category-list.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HomeComponent } from './home/home.component';
-
+import { HttpClientModule } from '@angular/common/http';
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,7 +18,7 @@ import { HomeComponent } from './home/home.component';
     CategoryListComponent,
     HomeComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule],
+  imports: [BrowserModule, AppRoutingModule, HttpClientModule],
   providers: [],
   bootstrap: [AppComponent],
 })
