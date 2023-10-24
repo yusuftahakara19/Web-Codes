@@ -1,7 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Product } from '../models/product';
-import { Observable } from 'rxjs';
+import { Observable, map } from 'rxjs';
 
 //local service
 @Injectable()
@@ -11,8 +11,24 @@ export class ProductService {
   //constructor'da bir http nesnesini inject edeceğiz.
   constructor(private http: HttpClient) {}
 
-  getProducts(): Observable<Product[]> {
-    return this.http.get<Product[]>(this.url + 'product.json');
+  getProducts(categoryId: number): Observable<Product[]> {
+    return this.http.get<Product[]>(this.url + 'product.json').pipe(
+      map((data) => {
+        const products: Product[] = [];
+
+        for (let key in data) {
+          if (categoryId) {
+            if (categoryId == data[key].categoryId) {
+              products.push({ ...data[key], id: key });
+            }
+          } else {
+            products.push({ ...data[key], id: key });
+          }
+        }
+
+        return products;
+      })
+    );
   }
 
   getProductById(id: string): Observable<Product> {

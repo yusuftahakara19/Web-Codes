@@ -18,13 +18,13 @@ export class AppComponent {
 
   createProduct() {
     const product = {
-      id: 4,
-      name: 'iphone18',
-      price: 50000,
+      id: 5,
+      name: 'Mac 1',
+      price: 60000,
       imageUrl: '1.png',
-      description: 'iyi telefon',
+      description: 'iyi bilgisayar',
       isActive: true,
-      categoryId: 1,
+      categoryId: 2,
     };
 
     this.productService
