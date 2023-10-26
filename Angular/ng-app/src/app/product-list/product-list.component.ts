@@ -13,7 +13,7 @@ import { ProductService } from '../services/product.service';
 })
 export class ProductListComponent implements OnInit {
   products: Product[] = [];
-
+  loading: boolean = false;
   constructor(
     private route: ActivatedRoute, // active bir route gerekli bu yüzden bunu buraya yazıyoruz.
     private productService: ProductService
@@ -22,10 +22,12 @@ export class ProductListComponent implements OnInit {
   ngOnInit(): void {
     this.route.params.subscribe((params) => {
       // subscribe yazmamızın sebebi asenkron bir işlem ve bu sebeple onun hazır olmasını bekleyeceğiz
+      this.loading = true;
       this.productService
         .getProducts(params['categoryId'])
         .subscribe((data) => {
           this.products = data;
+          this.loading = false;
         });
     });
   }

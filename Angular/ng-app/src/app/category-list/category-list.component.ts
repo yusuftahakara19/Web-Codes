@@ -2,22 +2,28 @@ import { Component, OnInit } from '@angular/core';
 import { CategoryRepository } from '../models/category.repository';
 import { Category } from '../models/category';
 import { Router } from '@angular/router';
+import { CategoryService } from '../services/category.service';
 
 @Component({
   selector: 'category-list',
   templateUrl: './category-list.component.html',
   styleUrls: ['./category-list.component.css'],
+  providers: [CategoryService],
 })
 export class CategoryListComponent implements OnInit {
   categories: Category[];
-  categoriy_repository: CategoryRepository;
-  selectedCategory: Category | null;
-  constructor(private router: Router) {
-    this.categoriy_repository = new CategoryRepository();
-    this.categories = this.categoriy_repository.getCategories();
-  }
 
-  ngOnInit(): void {}
+  selectedCategory: Category | null;
+  constructor(
+    private router: Router,
+    private categoryService: CategoryService
+  ) {}
+
+  ngOnInit(): void {
+    this.categoryService.getCategory().subscribe((data) => {
+      this.categories = data;
+    });
+  }
 
   displayAll = false;
   selectCategory(category?: Category) {

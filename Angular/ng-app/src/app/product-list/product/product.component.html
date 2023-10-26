@@ -1,17 +1,19 @@
-<div class="card mb-5 p-2" *ngIf="product; else noProduct">
-  <div class="row">
-    <div class="col-3">
-      <img
-        src="../../assets/images/{{ product.imageUrl }}"
-        alt=""
-        class="img-fluid rounded-start"
-      />
-    </div>
-    <div class="col-9">
-      <div class="card-body">
-        <div class="card-title">{{ product.name }}</div>
-        <div class="card-text">
-          {{ product.description }}
+<div *ngIf="!loading">
+  <div class="card mb-5 p-2" *ngIf="product; else noProduct">
+    <div class="row">
+      <div class="col-3">
+        <img
+          src="../../assets/images/{{ product.imageUrl }}"
+          alt=""
+          class="img-fluid rounded-start"
+        />
+      </div>
+      <div class="col-9">
+        <div class="card-body">
+          <div class="card-title">{{ product.name }}</div>
+          <div class="card-text">
+            {{ product.description }}
+          </div>
         </div>
       </div>
     </div>
@@ -21,3 +23,7 @@
 <ng-template #noProduct>
   <div class="alert alert-warning">no product</div>
 </ng-template>
+
+<div *ngIf="loading" class="spinner-border text-primary" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>

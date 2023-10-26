@@ -12,7 +12,7 @@ import { ProductService } from 'src/app/services/product.service';
 })
 export class ProductComponent implements OnInit {
   product: Product | undefined;
-
+  loading: boolean = false;
   constructor(
     private route: ActivatedRoute,
     private productService: ProductService
@@ -20,9 +20,11 @@ export class ProductComponent implements OnInit {
 
   ngOnInit(): void {
     this.route.params.subscribe((params) => {
+      this.loading = true;
       const id = params['productId'];
       this.productService.getProductById(id).subscribe((result) => {
         this.product = { ...result, id: id };
+        this.loading = false;
       });
     });
   }
