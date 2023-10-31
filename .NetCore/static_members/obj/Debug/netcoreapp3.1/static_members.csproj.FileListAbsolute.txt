@@ -1,0 +1,13 @@
+D:\Web\.NetCore\static_members\obj\Debug\netcoreapp3.1\static_members.csprojAssemblyReference.cache
+D:\Web\.NetCore\static_members\obj\Debug\netcoreapp3.1\static_members.AssemblyInfoInputs.cache
+D:\Web\.NetCore\static_members\obj\Debug\netcoreapp3.1\static_members.AssemblyInfo.cs
+D:\Web\.NetCore\static_members\obj\Debug\netcoreapp3.1\static_members.csproj.CoreCompileInputs.cache
+D:\Web\.NetCore\static_members\bin\Debug\netcoreapp3.1\static_members.exe
+D:\Web\.NetCore\static_members\bin\Debug\netcoreapp3.1\static_members.deps.json
+D:\Web\.NetCore\static_members\bin\Debug\netcoreapp3.1\static_members.runtimeconfig.json
+D:\Web\.NetCore\static_members\bin\Debug\netcoreapp3.1\static_members.runtimeconfig.dev.json
+D:\Web\.NetCore\static_members\bin\Debug\netcoreapp3.1\static_members.dll
+D:\Web\.NetCore\static_members\bin\Debug\netcoreapp3.1\static_members.pdb
+D:\Web\.NetCore\static_members\obj\Debug\netcoreapp3.1\static_members.dll
+D:\Web\.NetCore\static_members\obj\Debug\netcoreapp3.1\static_members.pdb
+D:\Web\.NetCore\static_members\obj\Debug\netcoreapp3.1\static_members.genruntimeconfig.cache

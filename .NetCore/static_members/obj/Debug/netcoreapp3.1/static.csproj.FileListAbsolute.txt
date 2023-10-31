@@ -1,0 +1,8 @@
+D:\Web\.NetCore\static\obj\Debug\netcoreapp3.1\static.csprojAssemblyReference.cache
+D:\Web\.NetCore\static\obj\Debug\netcoreapp3.1\static.AssemblyInfoInputs.cache
+D:\Web\.NetCore\static\obj\Debug\netcoreapp3.1\static.AssemblyInfo.cs
+D:\Web\.NetCore\static\obj\Debug\netcoreapp3.1\static.csproj.CoreCompileInputs.cache
+D:\Web\.NetCore\static_members\obj\Debug\netcoreapp3.1\static.csprojAssemblyReference.cache
+D:\Web\.NetCore\static_members\obj\Debug\netcoreapp3.1\static.AssemblyInfoInputs.cache
+D:\Web\.NetCore\static_members\obj\Debug\netcoreapp3.1\static.AssemblyInfo.cs
+D:\Web\.NetCore\static_members\obj\Debug\netcoreapp3.1\static.csproj.CoreCompileInputs.cache

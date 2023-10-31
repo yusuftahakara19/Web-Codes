@@ -34,8 +34,6 @@ export class ProductCreateComponent implements OnInit {
   }
 
   saveProduct(form: NgForm) {
-    console.log(this.model);
-
     const extensions = ['jpeg', 'jpg', 'png'];
     const extension = this.model.imageUrl.split('.').pop();
 
