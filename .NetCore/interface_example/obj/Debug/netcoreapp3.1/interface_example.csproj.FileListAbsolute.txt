@@ -1,0 +1,13 @@
+D:\Web\.NetCore\interface_example\obj\Debug\netcoreapp3.1\interface_example.csprojAssemblyReference.cache
+D:\Web\.NetCore\interface_example\obj\Debug\netcoreapp3.1\interface_example.AssemblyInfoInputs.cache
+D:\Web\.NetCore\interface_example\obj\Debug\netcoreapp3.1\interface_example.AssemblyInfo.cs
+D:\Web\.NetCore\interface_example\obj\Debug\netcoreapp3.1\interface_example.csproj.CoreCompileInputs.cache
+D:\Web\.NetCore\interface_example\bin\Debug\netcoreapp3.1\interface_example.exe
+D:\Web\.NetCore\interface_example\bin\Debug\netcoreapp3.1\interface_example.deps.json
+D:\Web\.NetCore\interface_example\bin\Debug\netcoreapp3.1\interface_example.runtimeconfig.json
+D:\Web\.NetCore\interface_example\bin\Debug\netcoreapp3.1\interface_example.runtimeconfig.dev.json
+D:\Web\.NetCore\interface_example\bin\Debug\netcoreapp3.1\interface_example.dll
+D:\Web\.NetCore\interface_example\bin\Debug\netcoreapp3.1\interface_example.pdb
+D:\Web\.NetCore\interface_example\obj\Debug\netcoreapp3.1\interface_example.dll
+D:\Web\.NetCore\interface_example\obj\Debug\netcoreapp3.1\interface_example.pdb
+D:\Web\.NetCore\interface_example\obj\Debug\netcoreapp3.1\interface_example.genruntimeconfig.cache
