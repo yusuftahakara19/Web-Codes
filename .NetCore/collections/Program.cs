@@ -38,10 +38,6 @@ namespace collections
 
             plakalar.Remove(35);
 
-            Hashtable hs = new Hashtable();
-            hs.Add(1, "ali");
-            hs.Add(5, 15.5f);
-            hs.Add("1", "Product");
 
 
         }

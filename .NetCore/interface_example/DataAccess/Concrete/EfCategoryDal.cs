@@ -21,6 +21,7 @@ namespace interface_example.DataAccess.Concrete
         }
         public void Create(Category entity)
         {
+            Console.WriteLine("EFCategory Created");
         }
 
         public void Delete(int id)

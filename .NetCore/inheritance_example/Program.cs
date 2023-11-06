@@ -2,7 +2,7 @@
 
 namespace inheritance_example
 {
-    class Person
+    abstract class Person
     {
         public string Name { get; set; }
         public string Surname { get; set; }
@@ -12,10 +12,7 @@ namespace inheritance_example
             this.Surname = surname;
         }
 
-        public virtual void Intro()
-        {
-            Console.WriteLine($"ad : {this.Name} surname : {this.Surname}");
-        }
+        public abstract void Intro();
     }
 
     class Student : Person
