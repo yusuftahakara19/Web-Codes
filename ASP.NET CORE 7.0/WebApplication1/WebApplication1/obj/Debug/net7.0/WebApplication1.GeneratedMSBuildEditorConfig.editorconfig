@@ -26,8 +26,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Web/ASP.NET CORE 7.0/WebApplication1/WebApplication1/Views/KitapTuru/Ekle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2l0YXBUdXJ1XEVrbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Web/ASP.NET CORE 7.0/WebApplication1/WebApplication1/Views/KitapTuru/Guncelle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2l0YXBUdXJ1XEd1bmNlbGxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Web/ASP.NET CORE 7.0/WebApplication1/WebApplication1/Views/KitapTuru/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2l0YXBUdXJ1XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Web/ASP.NET CORE 7.0/WebApplication1/WebApplication1/Views/KitapTuru/Sil.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2l0YXBUdXJ1XFNpbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Web/ASP.NET CORE 7.0/WebApplication1/WebApplication1/Views/Shared/Error.cshtml]

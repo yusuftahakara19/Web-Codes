@@ -1,26 +1,63 @@
 ﻿@model List<KitapTuru>
-<h1>Kitap Türleri</h1>
-<table class="table table-bordered">
-   <thead>
-    <tr>
-        <th>
-            Id
-        </th>
-        <th>
-            Kitap Adı
-        </th>
-    </tr>
-   </thead>
-   <tbody>
+
+@if (TempData["basarili"] != null)
+{
+    <div id="basariliAlert" class="alert alert-success" role="alert">
+        @TempData["basarili"]
+    </div>
+
+    <script>
+        setTimeout(function() {
+            $('#basariliAlert').fadeOut('slow');
+        }, 3000);
+    </script>
+}
+
+
+<style>
+      .col-1 {
+        width: 20%;
+    }
+       .col-2 {
+        width: 40%;
+    }
+</style>
+
+<div class="container">
+    <div class="row pt-3 pb-4"><h1>Kitap Türleri</h1></div>
     
-        @foreach(var kitapTuru in Model)
-        {
-          <tr>
-             <td>@kitapTuru.Id</td>
-             <td>@kitapTuru.Ad</td>
-          </tr>
-        }
-        
-   
-   </tbody>
-</table>
+        <table class="table table-bordered">
+           <thead>
+            <tr>
+                <th class="col-1">
+                    Id
+                </th>
+                <th class="col-2">
+                    Kitap Adı
+                </th
+                 <th class="col-1"></th>   
+                 <th class="col-1"></th>
+            </tr>
+           </thead>
+           <tbody>
+    
+                @foreach(var kitapTuru in Model)
+                {
+                  <tr>
+                     <td>@kitapTuru.Id</td>
+                     <td>@kitapTuru.Ad</td>
+                     <td><a asp-controller="KitapTuru" asp-action="Guncelle" asp-route-id="@kitapTuru.Id" style=" width: 100%;" type="button" class="btn btn-warning btn-block">Güncelle</a></td>
+                     <td><a asp-controller="KitapTuru" asp-action="Sil"  asp-route-id="@kitapTuru.Id" style=" width: 100%;" type="button" class="btn btn-danger btn-block">Sil</a></td>
+                  </tr>
+                }
+           </tbody>
+        </table>
+
+    <div class="row pt-3 pb-2">
+        <div>
+            <a asp-controller="KitapTuru" asp-action="Ekle" class="btn btn-primary" type="button">
+                Yeni Kitap Türü Oluştur
+            </a>
+        </div>
+    </div>
+</div>
