@@ -8,15 +8,15 @@ namespace shopapp.webui.Controllers
     {
         // action method
         //localhost:5000/home/index dediğinde bu metoda gelmiş olursun.
-        public string Index()
+        public IActionResult Index()
         {
-            return "home/index";
+            return View();
         }
 
         //localhost:5000/home/about dediğinde buradasın
-        public string About()
+        public IActionResult About()
         {
-            return "home/about";
+            return View();
         }
     }
 

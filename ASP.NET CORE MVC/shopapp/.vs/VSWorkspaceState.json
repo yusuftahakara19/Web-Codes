@@ -2,8 +2,13 @@
   "ExpandedNodes": [
     "",
     "\\shopapp.webui",
-    "\\shopapp.webui\\Controllers"
+    "\\shopapp.webui\\bin\\Debug",
+    "\\shopapp.webui\\bin\\Release",
+    "\\shopapp.webui\\bin\\Release\\netcoreapp3.1",
+    "\\shopapp.webui\\Controllers",
+    "\\shopapp.webui\\Views",
+    "\\shopapp.webui\\Views\\Home"
   ],
-  "SelectedNode": "\\shopapp.webui\\Controllers\\ProductController.cs",
+  "SelectedNode": "\\shopapp.webui\\Views\\Home\\Index.cshtml",
   "PreviewInSolutionExplorer": false
 }

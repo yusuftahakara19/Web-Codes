@@ -2,23 +2,29 @@
 using Microsoft.AspNetCore.Mvc;
 
 
-    public class ProductController : Controller
+public class ProductController : Controller
+{
+    public IActionResult Index()
     {
-    public string Index()
-    {
-        return "product/index";
+        return View();
     }
-
     //localhost:5000/product/list dediğinde bu metoda gelmiş olursun.
 
-    public string list()
-        {
-            return "product/list";
-        }
-
-        //localhost:5000/product/details dediğinde buradasın
-        public string Details(int id)
-        {
-            return "product/details/"+id;
-        }
+    public IActionResult list()
+    {
+        return View();
     }
+
+    //localhost:5000/product/details dediğinde buradasın
+    public IActionResult Details(int id)
+    {
+        return View();
+    }
+
+    public IActionResult Contact()
+    {
+        return View("MyView");
+    }
+
+
+}

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GIgLg7WlF+p7yUKsPZmEF0y9UOJQp6VFEpKmsWBdbrzOWFzs4xCWEcFE3h1Jtk5NQzvD65zBU5KYmH+CQAosIw==",
+  "dgSpecHash": "syITMt936Xk07KVlf13fRcAO/+1huYKdYW/Sc1+UOXi6ixW+EGEk4ChB3tL/kepADpguySFjrqss2pYzeMKpIw==",
   "success": true,
-  "projectFilePath": "D:\\WEB\\ASP.NET CORE MVC\\shopapp\\shopapp.webui\\shopapp.webui.csproj",
+  "projectFilePath": "D:\\Web\\ASP.NET CORE MVC\\shopapp\\shopapp.webui\\shopapp.webui.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

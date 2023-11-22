@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\WEB\\ASP.NET CORE MVC\\shopapp\\shopapp.webui\\shopapp.webui.csproj": {}
+    "D:\\Web\\ASP.NET CORE MVC\\shopapp\\shopapp.webui\\shopapp.webui.csproj": {}
   },
   "projects": {
-    "D:\\WEB\\ASP.NET CORE MVC\\shopapp\\shopapp.webui\\shopapp.webui.csproj": {
+    "D:\\Web\\ASP.NET CORE MVC\\shopapp\\shopapp.webui\\shopapp.webui.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\WEB\\ASP.NET CORE MVC\\shopapp\\shopapp.webui\\shopapp.webui.csproj",
+        "projectUniqueName": "D:\\Web\\ASP.NET CORE MVC\\shopapp\\shopapp.webui\\shopapp.webui.csproj",
         "projectName": "shopapp.webui",
-        "projectPath": "D:\\WEB\\ASP.NET CORE MVC\\shopapp\\shopapp.webui\\shopapp.webui.csproj",
+        "projectPath": "D:\\Web\\ASP.NET CORE MVC\\shopapp\\shopapp.webui\\shopapp.webui.csproj",
         "packagesPath": "C:\\Users\\ytkar\\.nuget\\packages\\",
-        "outputPath": "D:\\WEB\\ASP.NET CORE MVC\\shopapp\\shopapp.webui\\obj\\",
+        "outputPath": "D:\\Web\\ASP.NET CORE MVC\\shopapp\\shopapp.webui\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ytkar\\AppData\\Roaming\\NuGet\\NuGet.Config",
