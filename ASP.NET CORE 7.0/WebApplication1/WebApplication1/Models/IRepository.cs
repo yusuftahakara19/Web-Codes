@@ -9,7 +9,5 @@ namespace WebApplication1.Models
         void Ekle(T entity);
         void Sil(T entity);
         void SilAralik(IEnumerable<T> entities);
-
-
     }
 }

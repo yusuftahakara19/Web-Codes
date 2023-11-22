@@ -1,10 +1,14 @@
 using Microsoft.EntityFrameworkCore;
+using WebApplication1.Models;
 using WebApplication1.Utility;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddScoped<IKitapTuruRepository, KitapTuruRepository>();
+
 builder.Services.AddDbContext<UygulamaDbContext>(options =>
      options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
