@@ -1,0 +1,76 @@
+﻿@model List<Kitap>
+
+@if (TempData["basarili"] != null)
+{
+    <div id="basariliAlert" class="alert alert-success" role="alert">
+        @TempData["basarili"]
+    </div>
+
+    <script>
+        setTimeout(function() {
+            $('#basariliAlert').fadeOut('slow');
+        }, 1000);
+    </script>
+}
+
+
+<style>
+      .col-1 {
+        width: 13%;
+    }
+       .col-2 {
+        width: 22%;
+    }
+</style>
+
+<div class="container">
+     
+    <div class="row pt-3 pb-4"><h1>Kitaplar</h1></div>
+    
+        <table class="table table-bordered">
+           <thead>
+            <tr>
+                <th class="col-1">
+                    Id
+                </th>
+                <th class="col-2">
+                    Kitap Adı
+                </th>
+                <th class="col-1">
+                    Tanım
+                </th>
+                <th class="col-1">
+                    Yazar
+                </th>
+                <th class="col-1">
+                    Fiyat
+                </th>
+                 <th class="col-1"></th>   
+                 <th class="col-1"></th>
+            </tr>
+           </thead>
+           <tbody>
+    
+                @foreach(var kitap in Model)
+                {
+                  <tr>
+                     <td>@kitap.Id</td>
+                     <td>@kitap.KitapAdi</td>
+                     <td>@kitap.Tanim</td>
+                     <td>@kitap.Yazar</td>
+                     <td>@kitap.Fiyat</td>
+                     <td><a asp-controller="Kitap" asp-action="EkleGuncelle" asp-route-id="@kitap.Id" style=" width: 100%;" type="button" class="btn btn-warning btn-block">Güncelle</a></td>
+                     <td><a asp-controller="Kitap" asp-action="Sil"  asp-route-id="@kitap.Id" style=" width: 100%;" type="button" class="btn btn-danger btn-block">Sil</a></td>
+                  </tr>
+                }
+           </tbody>
+        </table>
+
+    <div class="row pt-3 pb-2">
+        <div>
+            <a asp-controller="Kitap" asp-action="EkleGuncelle" class="btn btn-primary" type="button">
+                Yeni Kitap Ekle
+            </a>
+        </div>
+    </div>
+</div>

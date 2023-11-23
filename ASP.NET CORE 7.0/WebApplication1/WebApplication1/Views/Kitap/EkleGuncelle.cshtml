@@ -1,0 +1,79 @@
+﻿@model Kitap
+
+<form method="post" enctype="multipart/form-data">
+
+    
+    <div class="row">
+        <div class="col-10">
+            <div class="border p-3 mt-5">
+                <div class="row pb-3">
+                    <h2> Kitap @(Model == null ? "Ekle" : "Güncelle")</h2>
+                    <hr />
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="KitapAdi"></label>
+                    <input asp-for="KitapAdi" class="form-control" />
+                    <span asp-validation-for="KitapAdi" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="KitapTuruId"></label>
+                    <select asp-for="KitapTuruId" asp-items="ViewBag.KitapTuruList" class="form-select"></select>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Tanim"></label>
+                    <input asp-for="Tanim" class="form-control" />
+                    <span asp-validation-for="Tanim" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Yazar"></label>
+                    <input asp-for="Yazar" class="form-control" />
+                    <span asp-validation-for="Yazar" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Fiyat"></label>
+                    <input asp-for="Fiyat" class="form-control" />
+                    <span asp-validation-for="Fiyat" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="ResimUrl"></label>
+                    <input type="file" name="file" class="form-control" />
+                </div>
+
+                @if (Model == null)
+                {
+                    <button type="submit" class="btn btn-primary mb-2">Kitap Ekle</button>
+
+                }
+                else
+                {
+                    <button type="submit" class="btn btn-primary mb-2">Güncelle</button>
+
+                }
+                <a asp-controller="Kitap" asp-action="Index" class="btn btn-primary mb-2">Kitaplara Geri Dön</a>
+            </div>
+        </div>
+        <div class="col-2">
+            @if(Model != null){
+                <img class="p-1 mt-5" src="@Model.ResimUrl" width="100%" style="border-radius:1rem; border:1px solid #bbb9b9" />
+            }
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+   
+</form>
+

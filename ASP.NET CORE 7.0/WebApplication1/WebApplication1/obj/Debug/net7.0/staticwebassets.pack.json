@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\Web\\ASP.NET CORE 7.0\\WebApplication1\\WebApplication1\\wwwroot\\img\\atomik-aliskanliklar.jpg",
+      "PackagePath": "staticwebassets\\img\\atomik-aliskanliklar.jpg"
+    },
+    {
       "Id": "D:\\Web\\ASP.NET CORE 7.0\\WebApplication1\\WebApplication1\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

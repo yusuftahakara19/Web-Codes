@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ZtEWhuIPrdR9tc4RLr4XGt+7YJxmP8Z0qJt3CSi0tEs=",
+  "Hash": "2LXkXuFzLFIOX2VcdhlYruVGAxLclAZhUHo3sZkZ1b0=",
   "Source": "WebApplication1",
   "BasePath": "_content/WebApplication1",
   "Mode": "Default",
@@ -91,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\Web\\ASP.NET CORE 7.0\\WebApplication1\\WebApplication1\\wwwroot\\img\\atomik-aliskanliklar.jpg",
+      "SourceId": "WebApplication1",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Web\\ASP.NET CORE 7.0\\WebApplication1\\WebApplication1\\wwwroot\\",
+      "BasePath": "_content/WebApplication1",
+      "RelativePath": "img/atomik-aliskanliklar.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\atomik-aliskanliklar.jpg"
     },
     {
       "Identity": "D:\\Web\\ASP.NET CORE 7.0\\WebApplication1\\WebApplication1\\wwwroot\\js\\site.js",

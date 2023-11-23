@@ -8,6 +8,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 builder.Services.AddScoped<IKitapTuruRepository, KitapTuruRepository>();
+builder.Services.AddScoped<IKitapRepository, KitapRepository>();
 
 builder.Services.AddDbContext<UygulamaDbContext>(options =>
      options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
