@@ -3,18 +3,18 @@ using WebApplication1.Utility;
 
 namespace WebApplication1.Models
 {
-    public class KitapRepository : Repository<Kitap>, IKitapRepository
+    public class KiralamaRepository : Repository<Kiralama>, IKiralamaRepository
     {
         private UygulamaDbContext _uygulamaDbContext;
 
-        public KitapRepository(UygulamaDbContext context) : base(context)
+        public KiralamaRepository(UygulamaDbContext context) : base(context)
         {
             _uygulamaDbContext = context;
         }
 
-        public void Guncelle(Kitap kitap)
+        public void Guncelle(Kiralama kiralama)
         {
-            _uygulamaDbContext.Update(kitap);
+            _uygulamaDbContext.Update(kiralama);
         }
 
         public void Kaydet()

@@ -11,5 +11,8 @@ namespace WebApplication1.Utility
     
         public DbSet<Kitap> Kitaplar {  get; set; }
 
+        public DbSet<Kiralama> Kiralamalar{ get; set; }
+
+
     }
 }

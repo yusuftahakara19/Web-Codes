@@ -17,6 +17,18 @@
       "PackagePath": "staticwebassets\\img\\atomik-aliskanliklar.jpg"
     },
     {
+      "Id": "D:\\Web\\ASP.NET CORE 7.0\\WebApplication1\\WebApplication1\\wwwroot\\img\\dede-korkut.jpg",
+      "PackagePath": "staticwebassets\\img\\dede-korkut.jpg"
+    },
+    {
+      "Id": "D:\\Web\\ASP.NET CORE 7.0\\WebApplication1\\WebApplication1\\wwwroot\\img\\suc-ve-ceza.jpg",
+      "PackagePath": "staticwebassets\\img\\suc-ve-ceza.jpg"
+    },
+    {
+      "Id": "D:\\Web\\ASP.NET CORE 7.0\\WebApplication1\\WebApplication1\\wwwroot\\img\\yer-altindan-notlar.jpg",
+      "PackagePath": "staticwebassets\\img\\yer-altindan-notlar.jpg"
+    },
+    {
       "Id": "D:\\Web\\ASP.NET CORE 7.0\\WebApplication1\\WebApplication1\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

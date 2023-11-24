@@ -26,6 +26,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Web/ASP.NET CORE 7.0/WebApplication1/WebApplication1/Views/Kiralama/EkleGuncelle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2lyYWxhbWFcRWtsZUd1bmNlbGxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Web/ASP.NET CORE 7.0/WebApplication1/WebApplication1/Views/Kiralama/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2lyYWxhbWFcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Web/ASP.NET CORE 7.0/WebApplication1/WebApplication1/Views/Kiralama/Sil.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2lyYWxhbWFcU2lsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Web/ASP.NET CORE 7.0/WebApplication1/WebApplication1/Views/KitapTuru/Ekle.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2l0YXBUdXJ1XEVrbGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

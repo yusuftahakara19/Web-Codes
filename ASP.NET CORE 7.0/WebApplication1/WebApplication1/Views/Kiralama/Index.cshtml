@@ -1,0 +1,67 @@
+﻿@model List<Kiralama>
+
+@if (TempData["basarili"] != null)
+{
+    <div id="basariliAlert" class="alert alert-success" role="alert">
+        @TempData["basarili"]
+    </div>
+
+    <script>
+        setTimeout(function() {
+            $('#basariliAlert').fadeOut('slow');
+        }, 1000);
+    </script>
+}
+
+
+<style>
+      .col-1 {
+        width: 33%;
+    }
+   
+</style>
+
+<div class="container">
+     
+    <div class="row pt-3 pb-4"><h1>Kiralamalar</h1></div>
+    
+        <table class="table table-bordered">
+           <thead>
+            <tr>
+                <th class="col-1">
+                    Id
+                </th>
+                <th class="col-2">
+                    Öğrenci Id
+                </th>
+                <th class="col-1">
+                    Kitap Adı
+                </th>
+              
+            </tr>
+           </thead>
+           <tbody>
+    
+                @foreach(var kiralama in Model)
+                {
+                  <tr>
+                    <td>@kiralama.Id</td>
+                    <td>@kiralama.OgrenciId</td>
+                    <td>@kiralama.Kitap.KitapAdi</td>
+                  
+
+                     <td><a asp-controller="Kiralama" asp-action="EkleGuncelle" asp-route-id="@kiralama.Id" style=" width: 100%;" type="button" class="btn btn-warning btn-block">Güncelle</a></td>
+                    <td><a asp-controller="Kiralama" asp-action="Sil" asp-route-id="@kiralama.Id" style=" width: 100%;" type="button" class="btn btn-danger btn-block">Sil</a></td>
+                  </tr>
+                }
+           </tbody>
+        </table>
+
+    <div class="row pt-3 pb-2">
+        <div>
+            <a asp-controller="Kiralama" asp-action="EkleGuncelle" class="btn btn-primary" type="button">
+                Kiralama İşlemi Oluştur
+            </a>
+        </div>
+    </div>
+</div>

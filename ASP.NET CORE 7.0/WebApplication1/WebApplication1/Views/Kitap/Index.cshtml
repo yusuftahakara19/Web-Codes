@@ -16,11 +16,9 @@
 
 <style>
       .col-1 {
-        width: 13%;
+        width: 14%;
     }
-       .col-2 {
-        width: 22%;
-    }
+   
 </style>
 
 <div class="container">
@@ -45,6 +43,9 @@
                 <th class="col-1">
                     Fiyat
                 </th>
+                <th class="col-1">
+                    Kitabın Türü
+                </th>
                  <th class="col-1"></th>   
                  <th class="col-1"></th>
             </tr>
@@ -59,6 +60,8 @@
                      <td>@kitap.Tanim</td>
                      <td>@kitap.Yazar</td>
                      <td>@kitap.Fiyat</td>
+                     <td>@kitap.KitapTuru.Ad</td>
+
                      <td><a asp-controller="Kitap" asp-action="EkleGuncelle" asp-route-id="@kitap.Id" style=" width: 100%;" type="button" class="btn btn-warning btn-block">Güncelle</a></td>
                      <td><a asp-controller="Kitap" asp-action="Sil"  asp-route-id="@kitap.Id" style=" width: 100%;" type="button" class="btn btn-danger btn-block">Sil</a></td>
                   </tr>

@@ -1,0 +1,59 @@
+﻿@model Kiralama
+
+<form method="post" enctype="multipart/form-data">
+   
+    
+    <div class="row">
+        <div class="col-10">
+            <div class="border p-3 mt-5">
+                <div class="row pb-3">
+                    <h2> Kiralama @(Model == null ? "Oluştur" : "Güncelle")</h2>
+                    <hr />
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="OgrenciId"></label>
+                    <input asp-for="OgrenciId" class="form-control" />
+                    <span asp-validation-for="OgrenciId" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="KitapId"></label>
+                    <select asp-for="KitapId" asp-items="ViewBag.KitapList" class="form-select"></select>
+                </div>
+
+                @if (Model == null)
+                {
+                    <button type="submit" class="btn btn-primary mb-2">Kiralama Oluştur</button>
+
+                }
+                else
+                {
+                    <button type="submit" class="btn btn-primary mb-2">Güncelle</button>
+
+                }
+                <a asp-controller="Kiralama" asp-action="Index" class="btn btn-primary mb-2">Kiralamalara Geri Dön</a>
+            </div>
+
+        </div>
+        <div class="col-2">
+            @if (Model != null)
+            {
+                <img class="p-1 mt-5" src="@Model.Kitap.ResimUrl" width="100%" style="border-radius:1rem; border:1px solid #bbb9b9" />
+            }
+        </div>
+       
+    </div>
+
+
+
+
+
+
+
+
+
+
+   
+</form>
+

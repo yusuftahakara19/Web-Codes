@@ -9,6 +9,7 @@ builder.Services.AddControllersWithViews();
 
 builder.Services.AddScoped<IKitapTuruRepository, KitapTuruRepository>();
 builder.Services.AddScoped<IKitapRepository, KitapRepository>();
+builder.Services.AddScoped<IKiralamaRepository, KiralamaRepository>();
 
 builder.Services.AddDbContext<UygulamaDbContext>(options =>
      options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));

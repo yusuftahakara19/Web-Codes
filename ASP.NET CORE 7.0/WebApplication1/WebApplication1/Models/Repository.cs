@@ -13,6 +13,7 @@ namespace WebApplication1.Models
         {
             _uygulamaDbContext = context;
             this.dbSet = _uygulamaDbContext.Set<T>();
+            _uygulamaDbContext.Kitaplar.Include(k => k.KitapTuru).Include(k => k.KitapTuruId);
         }
 
         public void Ekle(T entity)
@@ -20,16 +21,34 @@ namespace WebApplication1.Models
             dbSet.Add(entity);
         }
 
-        public T Get(Expression<Func<T, bool>> filtre)
+        public T Get(Expression<Func<T, bool>> filtre, string? includeProps = null)
         {
             IQueryable<T> sorgu = dbSet;
-            sorgu = sorgu.Where(filtre);  
+            sorgu = sorgu.Where(filtre);
+
+            if (!string.IsNullOrEmpty(includeProps))
+            {
+                foreach (var prop in includeProps.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries))
+                {
+                    sorgu = sorgu.Include(prop);
+                }
+            }
+
             return sorgu.FirstOrDefault();
         }
 
-        public IEnumerable<T> GetAll()
+        public IEnumerable<T> GetAll(string? includeProps = null)
         {
             IQueryable<T> sorgu = dbSet;
+
+            if (!string.IsNullOrEmpty(includeProps))
+            {
+                foreach(var prop in includeProps.Split(new char[] {','}, StringSplitOptions.RemoveEmptyEntries)) 
+                {
+                    sorgu = sorgu.Include(prop);
+                }
+            }
+
             return sorgu.ToList();
         }
 
