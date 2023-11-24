@@ -15,13 +15,22 @@ namespace WebApplication1.Controllers
             _kitapRepository = context;
             _kitapTuruRepository = kitapTuruRepository;
             _webHostEnvironment = webHostEnvironment;
+            
         }
+      
         public IActionResult Index()
         {
             List<Kitap> objKitapList = _kitapRepository.GetAll().ToList();
    
             return View(objKitapList);
         }
+
+        public  IActionResult Guncelleme()
+        {
+            return View();
+            
+        }
+        
         public IActionResult EkleGuncelle(int? id)
         {
             IEnumerable<SelectListItem> KitapTuruList = _kitapTuruRepository.GetAll()
