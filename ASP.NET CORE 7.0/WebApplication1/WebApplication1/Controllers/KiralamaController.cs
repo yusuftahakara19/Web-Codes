@@ -2,9 +2,12 @@
 using WebApplication1.Utility;
 using WebApplication1.Models;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.AspNetCore.Authorization;
 
 namespace WebApplication1.Controllers
 {
+    [Authorize(Roles = UserRoles.Role_Admin)]
+
     public class KiralamaController : Controller
     {
         private readonly IKiralamaRepository _kiralamaRepository;

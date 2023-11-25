@@ -2,6 +2,7 @@
 using WebApplication1.Utility;
 using WebApplication1.Models;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.AspNetCore.Authorization;
 
 namespace WebApplication1.Controllers
 {
@@ -17,7 +18,8 @@ namespace WebApplication1.Controllers
             _webHostEnvironment = webHostEnvironment;
             
         }
-      
+        [Authorize(Roles = "Admin,Ogrenci")]
+
         public IActionResult Index()
         {
             // List<Kitap> objKitapList = _kitapRepository.GetAll().ToList();
@@ -27,12 +29,15 @@ namespace WebApplication1.Controllers
             return View(objKitapList);
         }
 
-        public  IActionResult Guncelleme()
+        [Authorize(Roles = UserRoles.Role_Admin)]
+
+        public IActionResult Guncelleme()
         {
             return View();
             
         }
-        
+        [Authorize(Roles = UserRoles.Role_Admin)]
+
         public IActionResult EkleGuncelle(int? id)
         {
             IEnumerable<SelectListItem> KitapTuruList = _kitapTuruRepository.GetAll()
@@ -55,6 +60,7 @@ namespace WebApplication1.Controllers
             }
 
         }
+        [Authorize(Roles = UserRoles.Role_Admin)]
 
         [HttpPost]
         public IActionResult EkleGuncelle(Kitap kitap, IFormFile? file)
@@ -125,6 +131,7 @@ namespace WebApplication1.Controllers
 
         }
         */
+        [Authorize(Roles = UserRoles.Role_Admin)]
 
         public IActionResult Sil(int? id)
         {
@@ -136,6 +143,7 @@ namespace WebApplication1.Controllers
             if (kitapVt == null) { return NotFound(); }
             return View(kitapVt);
         }
+        [Authorize(Roles = UserRoles.Role_Admin)]
 
         [HttpPost,ActionName("Sil")]
         public IActionResult SilPOST(int? id)

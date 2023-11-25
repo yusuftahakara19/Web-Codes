@@ -1,4 +1,6 @@
-﻿<!DOCTYPE html>
+﻿@using WebApplication1.Utility
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -22,19 +24,35 @@
                         <li class="nav-item">
                             <a class="nav-link " asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link " asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link " asp-area="" asp-controller="KitapTuru" asp-action="Index">Kitap Türü</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link " asp-area="" asp-controller="Kitap" asp-action="Index">Kitaplar</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link " asp-area="" asp-controller="Kiralama" asp-action="Index">Kiralama İşlemleri</a>
-                        </li>
+                     
+
+                        @if (User.IsInRole(UserRoles.Role_Admin))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link " asp-area="" asp-controller="KitapTuru" asp-action="Index">Kitap Türü</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " asp-area="" asp-controller="Kitap" asp-action="Index">Kitaplar</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " asp-area="" asp-controller="Kiralama" asp-action="Index">Kiralama İşlemleri</a>
+                            </li>
+                        }
+
+
+                        @if (User.IsInRole(UserRoles.Role_Ogrenci))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link " asp-area="" asp-controller="Kitap" asp-action="Index">Kitap Listesi</a>
+                            </li>
+                        }
+
+
+
                     </ul>
+
+                    <partial name ="_LoginPartial"/>
+
                 </div>
             </div>
         </nav>
