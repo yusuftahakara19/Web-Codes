@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "daVlojG9RCiQUmUz6g6aCNId46Gfy6lh9gWtqZDGoXhQxPViQf5rDcs2/oVniDExCm0mAG3fYMarsDpsgLxtcg==",
+  "dgSpecHash": "w+nxngRZOhrx2z9rNUiJZfxsdUSo3DRtMF31ZTDPh8XL0IDVq9vCnzWAiymHXqB5mRap8xGiSI7IMUhWaDx8Mw==",
   "success": true,
-  "projectFilePath": "D:\\Web\\HotelProject\\ApiConsume\\HotelProject.BusinessLayer\\HotelProject.BusinessLayer.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\tkyusuft\\Desktop\\Web-Codes\\HotelProject\\ApiConsume\\HotelProject.BusinessLayer\\HotelProject.BusinessLayer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tkyusuft\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\tkyusuft\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\tkyusuft\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

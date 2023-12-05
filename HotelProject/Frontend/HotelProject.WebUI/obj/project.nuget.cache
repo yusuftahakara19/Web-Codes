@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "+2vTxOOL7jtb7HpS2h4z7GErVo39CoFBVCRfVSHyMBWmgOqXKPXbsW83hX3wOoPLJ7qOMrzjSOG4HMI0ei15jQ==",
+  "dgSpecHash": "4RbHVbDz36JTFbNjcXE/mdvGj5BkII4EQJumuASy6K/2ToxcQeUw7d8HM0/1alYwicC7ZUzV+Ia+cQCpEXLWdQ==",
   "success": true,
-  "projectFilePath": "D:\\Web\\HotelProject\\Frontend\\HotelProject.WebUI\\HotelProject.WebUI.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\tkyusuft\\Desktop\\Web-Codes\\HotelProject\\Frontend\\HotelProject.WebUI\\HotelProject.WebUI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tkyusuft\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\tkyusuft\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\tkyusuft\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\tkyusuft\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
+  ],
   "logs": []
 }

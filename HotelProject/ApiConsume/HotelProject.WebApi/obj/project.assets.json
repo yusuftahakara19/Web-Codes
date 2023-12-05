@@ -209,19 +209,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ytkar\\.nuget\\packages\\": {}
+    "C:\\Users\\tkyusuft\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Web\\HotelProject\\ApiConsume\\HotelProject.WebApi\\HotelProject.WebApi.csproj",
+      "projectUniqueName": "C:\\Users\\tkyusuft\\Desktop\\Web-Codes\\HotelProject\\ApiConsume\\HotelProject.WebApi\\HotelProject.WebApi.csproj",
       "projectName": "HotelProject.WebApi",
-      "projectPath": "D:\\Web\\HotelProject\\ApiConsume\\HotelProject.WebApi\\HotelProject.WebApi.csproj",
-      "packagesPath": "C:\\Users\\ytkar\\.nuget\\packages\\",
-      "outputPath": "D:\\Web\\HotelProject\\ApiConsume\\HotelProject.WebApi\\obj\\",
+      "projectPath": "C:\\Users\\tkyusuft\\Desktop\\Web-Codes\\HotelProject\\ApiConsume\\HotelProject.WebApi\\HotelProject.WebApi.csproj",
+      "packagesPath": "C:\\Users\\tkyusuft\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\tkyusuft\\Desktop\\Web-Codes\\HotelProject\\ApiConsume\\HotelProject.WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ytkar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\tkyusuft\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -263,6 +263,24 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[5.0.17, 5.0.17]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -271,7 +289,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }
