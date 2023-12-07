@@ -144,3 +144,4 @@ D:\Web\HotelProject\ApiConsume\HotelProject.WebApi\obj\Debug\net5.0\refint\Hotel
 D:\Web\HotelProject\ApiConsume\HotelProject.WebApi\obj\Debug\net5.0\HotelProject.WebApi.pdb
 D:\Web\HotelProject\ApiConsume\HotelProject.WebApi\obj\Debug\net5.0\HotelProject.WebApi.genruntimeconfig.cache
 D:\Web\HotelProject\ApiConsume\HotelProject.WebApi\obj\Debug\net5.0\ref\HotelProject.WebApi.dll
+C:\Users\tkyusuft\Desktop\Web-Codes\HotelProject\ApiConsume\HotelProject.WebApi\obj\Debug\net5.0\HotelProject.WebApi.MvcApplicationPartsAssemblyInfo.cs

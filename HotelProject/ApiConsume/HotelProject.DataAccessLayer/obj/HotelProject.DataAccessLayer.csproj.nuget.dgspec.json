@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Web\\HotelProject\\ApiConsume\\HotelProject.DataAccessLayer\\HotelProject.DataAccessLayer.csproj": {}
+    "C:\\Users\\tkyusuft\\Desktop\\Web-Codes\\HotelProject\\ApiConsume\\HotelProject.DataAccessLayer\\HotelProject.DataAccessLayer.csproj": {}
   },
   "projects": {
-    "D:\\Web\\HotelProject\\ApiConsume\\HotelProject.DataAccessLayer\\HotelProject.DataAccessLayer.csproj": {
+    "C:\\Users\\tkyusuft\\Desktop\\Web-Codes\\HotelProject\\ApiConsume\\HotelProject.DataAccessLayer\\HotelProject.DataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Web\\HotelProject\\ApiConsume\\HotelProject.DataAccessLayer\\HotelProject.DataAccessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\tkyusuft\\Desktop\\Web-Codes\\HotelProject\\ApiConsume\\HotelProject.DataAccessLayer\\HotelProject.DataAccessLayer.csproj",
         "projectName": "HotelProject.DataAccessLayer",
-        "projectPath": "D:\\Web\\HotelProject\\ApiConsume\\HotelProject.DataAccessLayer\\HotelProject.DataAccessLayer.csproj",
-        "packagesPath": "C:\\Users\\ytkar\\.nuget\\packages\\",
-        "outputPath": "D:\\Web\\HotelProject\\ApiConsume\\HotelProject.DataAccessLayer\\obj\\",
+        "projectPath": "C:\\Users\\tkyusuft\\Desktop\\Web-Codes\\HotelProject\\ApiConsume\\HotelProject.DataAccessLayer\\HotelProject.DataAccessLayer.csproj",
+        "packagesPath": "C:\\Users\\tkyusuft\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tkyusuft\\Desktop\\Web-Codes\\HotelProject\\ApiConsume\\HotelProject.DataAccessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ytkar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\tkyusuft\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\Web\\HotelProject\\ApiConsume\\HotelProject.EntityLayer\\HotelProject.EntityLayer.csproj": {
-                "projectPath": "D:\\Web\\HotelProject\\ApiConsume\\HotelProject.EntityLayer\\HotelProject.EntityLayer.csproj"
+              "C:\\Users\\tkyusuft\\Desktop\\Web-Codes\\HotelProject\\ApiConsume\\HotelProject.EntityLayer\\HotelProject.EntityLayer.csproj": {
+                "projectPath": "C:\\Users\\tkyusuft\\Desktop\\Web-Codes\\HotelProject\\ApiConsume\\HotelProject.EntityLayer\\HotelProject.EntityLayer.csproj"
               }
             }
           }
@@ -81,21 +81,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Web\\HotelProject\\ApiConsume\\HotelProject.EntityLayer\\HotelProject.EntityLayer.csproj": {
+    "C:\\Users\\tkyusuft\\Desktop\\Web-Codes\\HotelProject\\ApiConsume\\HotelProject.EntityLayer\\HotelProject.EntityLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Web\\HotelProject\\ApiConsume\\HotelProject.EntityLayer\\HotelProject.EntityLayer.csproj",
+        "projectUniqueName": "C:\\Users\\tkyusuft\\Desktop\\Web-Codes\\HotelProject\\ApiConsume\\HotelProject.EntityLayer\\HotelProject.EntityLayer.csproj",
         "projectName": "HotelProject.EntityLayer",
-        "projectPath": "D:\\Web\\HotelProject\\ApiConsume\\HotelProject.EntityLayer\\HotelProject.EntityLayer.csproj",
-        "packagesPath": "C:\\Users\\ytkar\\.nuget\\packages\\",
-        "outputPath": "D:\\Web\\HotelProject\\ApiConsume\\HotelProject.EntityLayer\\obj\\",
+        "projectPath": "C:\\Users\\tkyusuft\\Desktop\\Web-Codes\\HotelProject\\ApiConsume\\HotelProject.EntityLayer\\HotelProject.EntityLayer.csproj",
+        "packagesPath": "C:\\Users\\tkyusuft\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tkyusuft\\Desktop\\Web-Codes\\HotelProject\\ApiConsume\\HotelProject.EntityLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ytkar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\tkyusuft\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -158,7 +158,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -8,6 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = HotelProject.DtoLayer
-build_property.ProjectDir = D:\Web\HotelProject\ApiConsume\HotelProject.DtoLayer\
-build_property.EnableComHosting = 
-build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.ProjectDir = C:\Users\tkyusuft\Desktop\Web-Codes\HotelProject\ApiConsume\HotelProject.DtoLayer\
