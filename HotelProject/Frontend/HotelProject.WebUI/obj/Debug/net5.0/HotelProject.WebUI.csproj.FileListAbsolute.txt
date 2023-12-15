@@ -227,3 +227,11 @@ C:\Users\tkyusuft\Desktop\Web-Codes\HotelProject\Frontend\HotelProject.WebUI\bin
 C:\Users\tkyusuft\Desktop\Web-Codes\HotelProject\Frontend\HotelProject.WebUI\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 C:\Users\tkyusuft\Desktop\Web-Codes\HotelProject\Frontend\HotelProject.WebUI\obj\Debug\net5.0\Razor\Views\AdminLayout\_AdminLayout.cshtml.g.cs
 C:\Users\tkyusuft\Desktop\Web-Codes\HotelProject\Frontend\HotelProject.WebUI\obj\Debug\net5.0\Razor\Views\Staff\Index.cshtml.g.cs
+C:\Users\tkyusuft\Desktop\Web-Codes\HotelProject\Frontend\HotelProject.WebUI\obj\Debug\net5.0\Razor\Views\AdminLayout\HeadPartial.cshtml.g.cs
+C:\Users\tkyusuft\Desktop\Web-Codes\HotelProject\Frontend\HotelProject.WebUI\obj\Debug\net5.0\Razor\Views\AdminLayout\PreloaderPartial.cshtml.g.cs
+C:\Users\tkyusuft\Desktop\Web-Codes\HotelProject\Frontend\HotelProject.WebUI\obj\Debug\net5.0\Razor\Views\AdminLayout\NavheaderPartial.cshtml.g.cs
+C:\Users\tkyusuft\Desktop\Web-Codes\HotelProject\Frontend\HotelProject.WebUI\obj\Debug\net5.0\Razor\Views\AdminLayout\HeaderPartial.cshtml.g.cs
+C:\Users\tkyusuft\Desktop\Web-Codes\HotelProject\Frontend\HotelProject.WebUI\obj\Debug\net5.0\Razor\Views\AdminLayout\SidebarPartial.cshtml.g.cs
+C:\Users\tkyusuft\Desktop\Web-Codes\HotelProject\Frontend\HotelProject.WebUI\obj\Debug\net5.0\Razor\Views\AdminLayout\FooterPartial.cshtml.g.cs
+C:\Users\tkyusuft\Desktop\Web-Codes\HotelProject\Frontend\HotelProject.WebUI\obj\Debug\net5.0\Razor\Views\AdminLayout\ScriptPartial.cshtml.g.cs
+C:\Users\tkyusuft\Desktop\Web-Codes\HotelProject\Frontend\HotelProject.WebUI\obj\Debug\net5.0\Razor\Views\Staff\AddStaff.cshtml.g.cs
