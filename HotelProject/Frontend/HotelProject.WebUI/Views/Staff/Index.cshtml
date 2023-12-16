@@ -19,7 +19,7 @@
             <th>@item.StaffID</th>
             <td>@item.Name</td>
             <td>@item.Title</td>
-            <td> <a href="#" class="btn mb-1 btn-rounded btn-outline-danger w-100">Sil</a> </td>
+            <td><a asp-controller="Staff" asp-action="DeleteStaff" asp-route-id="@item.StaffID" class="btn mb-1 btn-rounded btn-outline-danger w-100">Sil</a></td>
             <td> <a href="#" class="btn mb-1 btn-rounded btn-outline-success w-100">Güncelle</a> </td>
             <td> <a href="#" class="btn mb-1 btn-rounded btn-outline-dark w-100">Detaylar</a> </td>
 
