@@ -235,3 +235,5 @@ C:\Users\tkyusuft\Desktop\Web-Codes\HotelProject\Frontend\HotelProject.WebUI\obj
 C:\Users\tkyusuft\Desktop\Web-Codes\HotelProject\Frontend\HotelProject.WebUI\obj\Debug\net5.0\Razor\Views\AdminLayout\FooterPartial.cshtml.g.cs
 C:\Users\tkyusuft\Desktop\Web-Codes\HotelProject\Frontend\HotelProject.WebUI\obj\Debug\net5.0\Razor\Views\AdminLayout\ScriptPartial.cshtml.g.cs
 C:\Users\tkyusuft\Desktop\Web-Codes\HotelProject\Frontend\HotelProject.WebUI\obj\Debug\net5.0\Razor\Views\Staff\AddStaff.cshtml.g.cs
+C:\Users\tkyusuft\Desktop\Web-Codes\HotelProject\Frontend\HotelProject.WebUI\obj\Debug\net5.0\Razor\Views\Staff\UpdateStaff.cshtml.g.cs
+C:\Users\tkyusuft\Desktop\Web-Codes\HotelProject\Frontend\HotelProject.WebUI\obj\Debug\net5.0\Razor\Views\Testimonial\Index.cshtml.g.cs

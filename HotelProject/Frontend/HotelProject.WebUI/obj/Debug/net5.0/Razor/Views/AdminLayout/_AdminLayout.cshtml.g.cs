@@ -33,8 +33,15 @@ using HotelProject.WebUI.Models.Staff;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 4 "C:\Users\tkyusuft\Desktop\Web-Codes\HotelProject\Frontend\HotelProject.WebUI\Views\_ViewImports.cshtml"
+using HotelProject.WebUI.Models.Testimonial;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA256", @"2e00c277fb75ed18e0097d5736b06287c146c7a3c52848ee5e724bc3da9815f7", @"/Views/AdminLayout/_AdminLayout.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA256", @"d56564b6acc8f29856d9ae9f40a0fc6c2573b60f5db9b6453d3a441a4682c27d", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA256", @"95af23d713833664d9b40abd609a993c27f43f8b5f6681b0f0557ce33c10e920", @"/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Views_AdminLayout__AdminLayout : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     #nullable disable
@@ -81,7 +88,7 @@ Write(await Html.PartialAsync("/Views/AdminLayout/HeadPartial.cshtml"));
 #line hidden
 #nullable disable
             WriteLiteral("\r\n\r\n\r\n\r\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2e00c277fb75ed18e0097d5736b06287c146c7a3c52848ee5e724bc3da9815f74236", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2e00c277fb75ed18e0097d5736b06287c146c7a3c52848ee5e724bc3da9815f74465", async() => {
                 WriteLiteral("\r\n    ");
 #nullable restore
 #line 13 "C:\Users\tkyusuft\Desktop\Web-Codes\HotelProject\Frontend\HotelProject.WebUI\Views\AdminLayout\_AdminLayout.cshtml"

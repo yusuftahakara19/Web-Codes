@@ -145,3 +145,9 @@ D:\Web\HotelProject\ApiConsume\HotelProject.WebApi\obj\Debug\net5.0\HotelProject
 D:\Web\HotelProject\ApiConsume\HotelProject.WebApi\obj\Debug\net5.0\HotelProject.WebApi.genruntimeconfig.cache
 D:\Web\HotelProject\ApiConsume\HotelProject.WebApi\obj\Debug\net5.0\ref\HotelProject.WebApi.dll
 C:\Users\tkyusuft\Desktop\Web-Codes\HotelProject\ApiConsume\HotelProject.WebApi\obj\Debug\net5.0\HotelProject.WebApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\tkyusuft\Desktop\Web-Codes\HotelProject\ApiConsume\HotelProject.WebApi\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\tkyusuft\Desktop\Web-Codes\HotelProject\ApiConsume\HotelProject.WebApi\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\tkyusuft\Desktop\Web-Codes\HotelProject\ApiConsume\HotelProject.WebApi\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\tkyusuft\Desktop\Web-Codes\HotelProject\ApiConsume\HotelProject.WebApi\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+C:\Users\tkyusuft\Desktop\Web-Codes\HotelProject\ApiConsume\HotelProject.WebApi\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Users\tkyusuft\Desktop\Web-Codes\HotelProject\ApiConsume\HotelProject.WebApi\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll

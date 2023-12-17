@@ -2,10 +2,17 @@
     <div class="nk-nav-scroll">
         <ul class="metismenu" id="menu">
             <li>
-                <a href="widgets.html" aria-expanded="false">
-                    <i class="icon-badge menu-icon"></i><span class="nav-text">Widget</span>
+                <a asp-controller="Staff" asp-action="Index" aria-expanded="false">
+                    <i class="icon-user menu-icon"></i><span class="nav-text">Staff</span>
                 </a>
             </li>
+            <li>
+                <a asp-controller="Testimonial" asp-action="Index" aria-expanded="false">
+                    <i class="icon-badge menu-icon"></i><span class="nav-text">References</span>
+                </a>
+            </li>
+
+           
         </ul>
     </div>
 </div>
