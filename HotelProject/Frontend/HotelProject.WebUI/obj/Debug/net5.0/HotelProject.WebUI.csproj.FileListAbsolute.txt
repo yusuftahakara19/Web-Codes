@@ -237,3 +237,14 @@ C:\Users\tkyusuft\Desktop\Web-Codes\HotelProject\Frontend\HotelProject.WebUI\obj
 C:\Users\tkyusuft\Desktop\Web-Codes\HotelProject\Frontend\HotelProject.WebUI\obj\Debug\net5.0\Razor\Views\Staff\AddStaff.cshtml.g.cs
 C:\Users\tkyusuft\Desktop\Web-Codes\HotelProject\Frontend\HotelProject.WebUI\obj\Debug\net5.0\Razor\Views\Staff\UpdateStaff.cshtml.g.cs
 C:\Users\tkyusuft\Desktop\Web-Codes\HotelProject\Frontend\HotelProject.WebUI\obj\Debug\net5.0\Razor\Views\Testimonial\Index.cshtml.g.cs
+C:\Users\tkyusuft\Desktop\Web-Codes\HotelProject\Frontend\HotelProject.WebUI\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\tkyusuft\Desktop\Web-Codes\HotelProject\Frontend\HotelProject.WebUI\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\tkyusuft\Desktop\Web-Codes\HotelProject\Frontend\HotelProject.WebUI\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\tkyusuft\Desktop\Web-Codes\HotelProject\Frontend\HotelProject.WebUI\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+C:\Users\tkyusuft\Desktop\Web-Codes\HotelProject\Frontend\HotelProject.WebUI\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Users\tkyusuft\Desktop\Web-Codes\HotelProject\Frontend\HotelProject.WebUI\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\tkyusuft\Desktop\Web-Codes\HotelProject\Frontend\HotelProject.WebUI\bin\Debug\net5.0\HotelProject.EntityLayer.dll
+C:\Users\tkyusuft\Desktop\Web-Codes\HotelProject\Frontend\HotelProject.WebUI\bin\Debug\net5.0\HotelProject.EntityLayer.pdb
+C:\Users\tkyusuft\Desktop\Web-Codes\HotelProject\Frontend\HotelProject.WebUI\obj\Debug\net5.0\Razor\Views\Service\Index.cshtml.g.cs
+C:\Users\tkyusuft\Desktop\Web-Codes\HotelProject\Frontend\HotelProject.WebUI\obj\Debug\net5.0\Razor\Views\Service\AddService.cshtml.g.cs
+C:\Users\tkyusuft\Desktop\Web-Codes\HotelProject\Frontend\HotelProject.WebUI\obj\Debug\net5.0\Razor\Views\Service\UpdateService.cshtml.g.cs

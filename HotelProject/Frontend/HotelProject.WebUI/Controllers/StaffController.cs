@@ -53,7 +53,7 @@ namespace HotelProject.WebUI.Controllers
             return View();
         }
 
-        //HTTP DELETE isteği almak yerine, bir HTTP DELETE isteği
+       
     
         public async Task<IActionResult> DeleteStaff(int id)
         {
