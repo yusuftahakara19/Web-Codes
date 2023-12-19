@@ -257,3 +257,4 @@ C:\Users\tkyusuft\Desktop\Web-Codes\HotelProject\Frontend\HotelProject.WebUI\bin
 C:\Users\tkyusuft\Desktop\Web-Codes\HotelProject\Frontend\HotelProject.WebUI\bin\Debug\net5.0\HotelProject.DataAccessLayer.pdb
 C:\Users\tkyusuft\Desktop\Web-Codes\HotelProject\Frontend\HotelProject.WebUI\obj\Debug\net5.0\Razor\Views\Register\Index.cshtml.g.cs
 C:\Users\tkyusuft\Desktop\Web-Codes\HotelProject\Frontend\HotelProject.WebUI\obj\Debug\net5.0\Razor\Views\Login\Index.cshtml.g.cs
+C:\Users\tkyusuft\Desktop\Web-Codes\HotelProject\Frontend\HotelProject.WebUI\obj\Debug\net5.0\Razor\Views\Default\Index.cshtml.g.cs
