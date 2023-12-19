@@ -47,8 +47,22 @@ using HotelProject.WebUI.Dtos.ServiceDto;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 6 "C:\Users\tkyusuft\Desktop\Web-Codes\HotelProject\Frontend\HotelProject.WebUI\Views\_ViewImports.cshtml"
+using HotelProject.WebUI.Dtos.RegisterDto;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 7 "C:\Users\tkyusuft\Desktop\Web-Codes\HotelProject\Frontend\HotelProject.WebUI\Views\_ViewImports.cshtml"
+using HotelProject.WebUI.Dtos.LoginDto;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA256", @"9c6e160eac499089dc7c322fbb8a8ae9d3431919cd163928306183be6019fd59", @"/Views/AdminLayout/NavheaderPartial.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA256", @"e8c7af95b4dbc6738197064faaa67d836dc4e27df025ad2593fb8d1dba49b32f", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA256", @"a7102038f32e0fe5b0575b3f98ae3690fc4ab86fd532487d43cd94643d14be49", @"/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Views_AdminLayout_NavheaderPartial : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     #nullable disable
@@ -82,7 +96,7 @@ using HotelProject.WebUI.Dtos.ServiceDto;
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
             WriteLiteral("<!--**********************************\r\n    Nav header start\r\n***********************************-->\r\n<div class=\"nav-header\">\r\n    <div class=\"brand-logo\">\r\n        <a href=\"index.html\">\r\n            <b class=\"logo-abbr\">");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "9c6e160eac499089dc7c322fbb8a8ae9d3431919cd163928306183be6019fd595799", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "9c6e160eac499089dc7c322fbb8a8ae9d3431919cd163928306183be6019fd596250", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -97,7 +111,7 @@ using HotelProject.WebUI.Dtos.ServiceDto;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral(" </b>\r\n            <span class=\"logo-compact\">");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "9c6e160eac499089dc7c322fbb8a8ae9d3431919cd163928306183be6019fd596983", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "9c6e160eac499089dc7c322fbb8a8ae9d3431919cd163928306183be6019fd597434", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -112,7 +126,7 @@ using HotelProject.WebUI.Dtos.ServiceDto;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("</span>\r\n            <span class=\"brand-title\">\r\n                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "9c6e160eac499089dc7c322fbb8a8ae9d3431919cd163928306183be6019fd598188", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "9c6e160eac499089dc7c322fbb8a8ae9d3431919cd163928306183be6019fd598639", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
