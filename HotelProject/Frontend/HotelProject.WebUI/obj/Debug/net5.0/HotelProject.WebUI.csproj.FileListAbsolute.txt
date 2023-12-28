@@ -259,3 +259,16 @@ C:\Users\tkyusuft\Desktop\Web-Codes\HotelProject\Frontend\HotelProject.WebUI\obj
 C:\Users\tkyusuft\Desktop\Web-Codes\HotelProject\Frontend\HotelProject.WebUI\obj\Debug\net5.0\Razor\Views\Login\Index.cshtml.g.cs
 C:\Users\tkyusuft\Desktop\Web-Codes\HotelProject\Frontend\HotelProject.WebUI\obj\Debug\net5.0\Razor\Views\Default\Index.cshtml.g.cs
 C:\Users\tkyusuft\Desktop\Web-Codes\HotelProject\Frontend\HotelProject.WebUI\obj\Debug\net5.0\Razor\Views\Shared\Components\_HeadPartial\Default.cshtml.g.cs
+C:\Users\tkyusuft\Desktop\Web-Codes\HotelProject\Frontend\HotelProject.WebUI\obj\Debug\net5.0\Razor\Views\Shared\Components\_SpinnerPartial\Default.cshtml.g.cs
+C:\Users\tkyusuft\Desktop\Web-Codes\HotelProject\Frontend\HotelProject.WebUI\obj\Debug\net5.0\Razor\Views\Shared\Components\_NavbarPartial\Default.cshtml.g.cs
+C:\Users\tkyusuft\Desktop\Web-Codes\HotelProject\Frontend\HotelProject.WebUI\obj\Debug\net5.0\Razor\Views\Shared\Components\_SliderPartial\Default.cshtml.g.cs
+C:\Users\tkyusuft\Desktop\Web-Codes\HotelProject\Frontend\HotelProject.WebUI\obj\Debug\net5.0\Razor\Views\Shared\Components\_RezervationPartial\Default.cshtml.g.cs
+C:\Users\tkyusuft\Desktop\Web-Codes\HotelProject\Frontend\HotelProject.WebUI\obj\Debug\net5.0\Razor\Views\Shared\Components\_AboutUsPartial\Default.cshtml.g.cs
+C:\Users\tkyusuft\Desktop\Web-Codes\HotelProject\Frontend\HotelProject.WebUI\obj\Debug\net5.0\Razor\Views\Shared\Components\_TrailerPartial\Default.cshtml.g.cs
+C:\Users\tkyusuft\Desktop\Web-Codes\HotelProject\Frontend\HotelProject.WebUI\obj\Debug\net5.0\Razor\Views\Shared\Components\_ServicePartial\Default.cshtml.g.cs
+C:\Users\tkyusuft\Desktop\Web-Codes\HotelProject\Frontend\HotelProject.WebUI\obj\Debug\net5.0\Razor\Views\Shared\Components\_TestimonialPartial\Default.cshtml.g.cs
+C:\Users\tkyusuft\Desktop\Web-Codes\HotelProject\Frontend\HotelProject.WebUI\obj\Debug\net5.0\Razor\Views\Shared\Components\_TeamPartial\Default.cshtml.g.cs
+C:\Users\tkyusuft\Desktop\Web-Codes\HotelProject\Frontend\HotelProject.WebUI\obj\Debug\net5.0\Razor\Views\Shared\Components\_SubscribePartial\Default.cshtml.g.cs
+C:\Users\tkyusuft\Desktop\Web-Codes\HotelProject\Frontend\HotelProject.WebUI\obj\Debug\net5.0\Razor\Views\Shared\Components\_FooterPartial\Default.cshtml.g.cs
+C:\Users\tkyusuft\Desktop\Web-Codes\HotelProject\Frontend\HotelProject.WebUI\obj\Debug\net5.0\Razor\Views\Shared\Components\_ScriptsPartial\Default.cshtml.g.cs
+C:\Users\tkyusuft\Desktop\Web-Codes\HotelProject\Frontend\HotelProject.WebUI\obj\Debug\net5.0\Razor\Views\Shared\Components\_OurRoomsPartial\Default.cshtml.g.cs
