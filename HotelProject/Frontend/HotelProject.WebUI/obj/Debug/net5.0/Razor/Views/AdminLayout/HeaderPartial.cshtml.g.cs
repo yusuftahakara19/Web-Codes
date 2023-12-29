@@ -61,8 +61,22 @@ using HotelProject.WebUI.Dtos.LoginDto;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 8 "C:\Users\tkyusuft\Desktop\Web-Codes\HotelProject\Frontend\HotelProject.WebUI\Views\_ViewImports.cshtml"
+using HotelProject.WebUI.Dtos.AboutDto;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 9 "C:\Users\tkyusuft\Desktop\Web-Codes\HotelProject\Frontend\HotelProject.WebUI\Views\_ViewImports.cshtml"
+using HotelProject.WebUI.Dtos.RoomDto;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA256", @"e7a673eb070a08fc8fbfa41f2e9291d6261c27c6e4f12739bbe8673dfaf8cfaf", @"/Views/AdminLayout/HeaderPartial.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA256", @"a7102038f32e0fe5b0575b3f98ae3690fc4ab86fd532487d43cd94643d14be49", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA256", @"076422d8b11dc5bebd017a4ec40979becbc71ff0ced21ddc84e510556f1b4da7", @"/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Views_AdminLayout_HeaderPartial : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     #nullable disable
@@ -119,7 +133,7 @@ using HotelProject.WebUI.Dtos.LoginDto;
                 <input type=""search"" class=""form-control"" placeholder=""Search Dashboard"" aria-label=""Search Dashboard"">
                 <div class=""drop-down   d-md-none"">
                     ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e7a673eb070a08fc8fbfa41f2e9291d6261c27c6e4f12739bbe8673dfaf8cfaf9182", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e7a673eb070a08fc8fbfa41f2e9291d6261c27c6e4f12739bbe8673dfaf8cfaf9629", async() => {
                 WriteLiteral("\r\n                        <input type=\"text\" class=\"form-control\" placeholder=\"Search\">\r\n                    ");
             }
             );
@@ -159,7 +173,7 @@ using HotelProject.WebUI.Dtos.LoginDto;
                                 <li class=""notification-unread"">
                                     <a href=""javascript:void()"">
                                         ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "e7a673eb070a08fc8fbfa41f2e9291d6261c27c6e4f12739bbe8673dfaf8cfaf11758", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "e7a673eb070a08fc8fbfa41f2e9291d6261c27c6e4f12739bbe8673dfaf8cfaf12205", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -185,7 +199,7 @@ using HotelProject.WebUI.Dtos.LoginDto;
                                 <li class=""notification-unread"">
                                     <a href=""javascript:void()"">
                                         ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "e7a673eb070a08fc8fbfa41f2e9291d6261c27c6e4f12739bbe8673dfaf8cfaf13685", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "e7a673eb070a08fc8fbfa41f2e9291d6261c27c6e4f12739bbe8673dfaf8cfaf14132", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -211,7 +225,7 @@ using HotelProject.WebUI.Dtos.LoginDto;
                                 <li>
                                     <a href=""javascript:void()"">
                                         ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "e7a673eb070a08fc8fbfa41f2e9291d6261c27c6e4f12739bbe8673dfaf8cfaf15567", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "e7a673eb070a08fc8fbfa41f2e9291d6261c27c6e4f12739bbe8673dfaf8cfaf16014", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -237,7 +251,7 @@ using HotelProject.WebUI.Dtos.LoginDto;
                                 <li>
                                     <a href=""javascript:void()"">
                                         ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "e7a673eb070a08fc8fbfa41f2e9291d6261c27c6e4f12739bbe8673dfaf8cfaf17463", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "e7a673eb070a08fc8fbfa41f2e9291d6261c27c6e4f12739bbe8673dfaf8cfaf17910", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -341,7 +355,7 @@ using HotelProject.WebUI.Dtos.LoginDto;
                     <div class=""user-img c-pointer position-relative"" data-toggle=""dropdown"">
                         <span class=""activity active""></span>
                         ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "e7a673eb070a08fc8fbfa41f2e9291d6261c27c6e4f12739bbe8673dfaf8cfaf23997", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "e7a673eb070a08fc8fbfa41f2e9291d6261c27c6e4f12739bbe8673dfaf8cfaf24444", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();

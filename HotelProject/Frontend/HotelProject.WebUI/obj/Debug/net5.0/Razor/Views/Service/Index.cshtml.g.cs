@@ -61,8 +61,22 @@ using HotelProject.WebUI.Dtos.LoginDto;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 8 "C:\Users\tkyusuft\Desktop\Web-Codes\HotelProject\Frontend\HotelProject.WebUI\Views\_ViewImports.cshtml"
+using HotelProject.WebUI.Dtos.AboutDto;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 9 "C:\Users\tkyusuft\Desktop\Web-Codes\HotelProject\Frontend\HotelProject.WebUI\Views\_ViewImports.cshtml"
+using HotelProject.WebUI.Dtos.RoomDto;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA256", @"96ee9bf81710c2ccce9627e006061437a5fd9a2e214c4e23df4e64d986a689b1", @"/Views/Service/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA256", @"a7102038f32e0fe5b0575b3f98ae3690fc4ab86fd532487d43cd94643d14be49", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA256", @"076422d8b11dc5bebd017a4ec40979becbc71ff0ced21ddc84e510556f1b4da7", @"/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Views_Service_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<List<ResultServiceDto>>
     #nullable disable
@@ -133,7 +147,7 @@ using HotelProject.WebUI.Dtos.LoginDto;
 #line hidden
 #nullable disable
             WriteLiteral("</td>\r\n            <td>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "96ee9bf81710c2ccce9627e006061437a5fd9a2e214c4e23df4e64d986a689b18163", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "96ee9bf81710c2ccce9627e006061437a5fd9a2e214c4e23df4e64d986a689b18610", async() => {
                 WriteLiteral("Delete");
             }
             );
@@ -167,7 +181,7 @@ using HotelProject.WebUI.Dtos.LoginDto;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("</td>\r\n            <td>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "96ee9bf81710c2ccce9627e006061437a5fd9a2e214c4e23df4e64d986a689b110711", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "96ee9bf81710c2ccce9627e006061437a5fd9a2e214c4e23df4e64d986a689b111158", async() => {
                 WriteLiteral("Update");
             }
             );
@@ -209,7 +223,7 @@ using HotelProject.WebUI.Dtos.LoginDto;
 #line hidden
 #nullable disable
             WriteLiteral("</table>\r\n\r\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "96ee9bf81710c2ccce9627e006061437a5fd9a2e214c4e23df4e64d986a689b113505", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "96ee9bf81710c2ccce9627e006061437a5fd9a2e214c4e23df4e64d986a689b113952", async() => {
                 WriteLiteral("Add New Service");
             }
             );
