@@ -30,7 +30,7 @@ namespace HotelProject.WebApi.Controllers
             return Ok();
         }
 
-        [HttpDelete("{id}")]
+        [HttpDelete("{id}")] // id alarak işlem yapacağını belirtmek zorundayız.
         public IActionResult DeleteStaff(int id)
         {
             var staff  = _staffService.TGetByID(id);

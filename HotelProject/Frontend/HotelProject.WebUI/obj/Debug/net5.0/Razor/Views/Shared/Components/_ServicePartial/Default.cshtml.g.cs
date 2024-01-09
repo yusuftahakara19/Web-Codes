@@ -82,8 +82,15 @@ using HotelProject.WebUI.Dtos.TestimonialDto;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 11 "C:\Users\tkyusuft\Desktop\Web-Codes\HotelProject\Frontend\HotelProject.WebUI\Views\_ViewImports.cshtml"
+using HotelProject.WebUI.Dtos.StaffDto;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA256", @"8d91ca92da282b75822df85c35dba560962036deca09647819b28a6d0de85ce9", @"/Views/Shared/Components/_ServicePartial/Default.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA256", @"bd0673712834ce0583c86e7c1ac8e12f94024bccc3a55093604e50336383f18d", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA256", @"6f6a46813cd370a88b87deecca5e2bc8f805b3fd6c6afaf28447d8a47ad12e66", @"/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Views_Shared_Components__ServicePartial_Default : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<List<ResultServiceDto>>
     #nullable disable
