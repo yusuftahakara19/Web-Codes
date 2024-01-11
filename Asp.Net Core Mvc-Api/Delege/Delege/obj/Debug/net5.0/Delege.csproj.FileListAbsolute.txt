@@ -1,0 +1,15 @@
+C:\Users\tkyusuft\Desktop\Web-Codes\Asp.Net Core Mvc-Api\Delege\Delege\bin\Debug\net5.0\Delege.exe
+C:\Users\tkyusuft\Desktop\Web-Codes\Asp.Net Core Mvc-Api\Delege\Delege\bin\Debug\net5.0\Delege.deps.json
+C:\Users\tkyusuft\Desktop\Web-Codes\Asp.Net Core Mvc-Api\Delege\Delege\bin\Debug\net5.0\Delege.runtimeconfig.json
+C:\Users\tkyusuft\Desktop\Web-Codes\Asp.Net Core Mvc-Api\Delege\Delege\bin\Debug\net5.0\Delege.runtimeconfig.dev.json
+C:\Users\tkyusuft\Desktop\Web-Codes\Asp.Net Core Mvc-Api\Delege\Delege\bin\Debug\net5.0\Delege.dll
+C:\Users\tkyusuft\Desktop\Web-Codes\Asp.Net Core Mvc-Api\Delege\Delege\bin\Debug\net5.0\Delege.pdb
+C:\Users\tkyusuft\Desktop\Web-Codes\Asp.Net Core Mvc-Api\Delege\Delege\obj\Debug\net5.0\Delege.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tkyusuft\Desktop\Web-Codes\Asp.Net Core Mvc-Api\Delege\Delege\obj\Debug\net5.0\Delege.AssemblyInfoInputs.cache
+C:\Users\tkyusuft\Desktop\Web-Codes\Asp.Net Core Mvc-Api\Delege\Delege\obj\Debug\net5.0\Delege.AssemblyInfo.cs
+C:\Users\tkyusuft\Desktop\Web-Codes\Asp.Net Core Mvc-Api\Delege\Delege\obj\Debug\net5.0\Delege.csproj.CoreCompileInputs.cache
+C:\Users\tkyusuft\Desktop\Web-Codes\Asp.Net Core Mvc-Api\Delege\Delege\obj\Debug\net5.0\Delege.dll
+C:\Users\tkyusuft\Desktop\Web-Codes\Asp.Net Core Mvc-Api\Delege\Delege\obj\Debug\net5.0\refint\Delege.dll
+C:\Users\tkyusuft\Desktop\Web-Codes\Asp.Net Core Mvc-Api\Delege\Delege\obj\Debug\net5.0\Delege.pdb
+C:\Users\tkyusuft\Desktop\Web-Codes\Asp.Net Core Mvc-Api\Delege\Delege\obj\Debug\net5.0\Delege.genruntimeconfig.cache
+C:\Users\tkyusuft\Desktop\Web-Codes\Asp.Net Core Mvc-Api\Delege\Delege\obj\Debug\net5.0\ref\Delege.dll
