@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JdbIle53YM+TX9WZaJBWHbj/LjfGJJgJIxjXR5/H4eolhIbhCO9hwUHq+I+jSQLGlYf8h9smi4RPFxDyip6ucQ==",
+  "dgSpecHash": "DL4TVWI2vSj7czmOtKnMIcYecckNZ/2XC0ORz20HwxGF1OXv/UB5rK3JnAKZi6s1I0Eh+bLlLR/OwkEZq5U3+Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tkyusuft\\Desktop\\Web-Codes\\ReStore\\API\\API.csproj",
+  "projectFilePath": "C:\\Users\\tkyusuft\\Desktop\\Web-Codes\\ReStore\\api\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tkyusuft\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\tkyusuft\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.12\\microsoft.aspnetcore.openapi.7.0.12.nupkg.sha512",

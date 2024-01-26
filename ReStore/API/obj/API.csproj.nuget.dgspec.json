@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tkyusuft\\Desktop\\Web-Codes\\ReStore\\API\\API.csproj": {}
+    "C:\\Users\\tkyusuft\\Desktop\\Web-Codes\\ReStore\\api\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tkyusuft\\Desktop\\Web-Codes\\ReStore\\API\\API.csproj": {
+    "C:\\Users\\tkyusuft\\Desktop\\Web-Codes\\ReStore\\api\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tkyusuft\\Desktop\\Web-Codes\\ReStore\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\tkyusuft\\Desktop\\Web-Codes\\ReStore\\api\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\tkyusuft\\Desktop\\Web-Codes\\ReStore\\API\\API.csproj",
+        "projectPath": "C:\\Users\\tkyusuft\\Desktop\\Web-Codes\\ReStore\\api\\API.csproj",
         "packagesPath": "C:\\Users\\tkyusuft\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tkyusuft\\Desktop\\Web-Codes\\ReStore\\API\\obj\\",
+        "outputPath": "C:\\Users\\tkyusuft\\Desktop\\Web-Codes\\ReStore\\api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\tkyusuft\\AppData\\Roaming\\NuGet\\NuGet.Config",
