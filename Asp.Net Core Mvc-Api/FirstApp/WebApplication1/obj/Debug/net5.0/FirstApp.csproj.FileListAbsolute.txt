@@ -42,4 +42,6 @@ C:\Users\tkyusuft\Desktop\Web-Codes\Asp.Net Core Mvc-Api\FirstApp\WebApplication
 C:\Users\tkyusuft\Desktop\Web-Codes\Asp.Net Core Mvc-Api\FirstApp\WebApplication1\obj\Debug\net5.0\ref\FirstApp.dll
 C:\Users\tkyusuft\Desktop\Web-Codes\Asp.Net Core Mvc-Api\FirstApp\WebApplication1\obj\Debug\net5.0\FirstApp.csproj.CopyComplete
 C:\Users\tkyusuft\Desktop\Web-Codes\Asp.Net Core Mvc-Api\FirstApp\WebApplication1\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
-C:\Users\tkyusuft\Desktop\Web-Codes\Asp.Net Core Mvc-Api\FirstApp\WebApplication1\obj\Debug\net5.0\Razor\Views\Shared\Test.cshtml.g.cs
+C:\Users\tkyusuft\Desktop\Web-Codes\Asp.Net Core Mvc-Api\FirstApp\WebApplication1\bin\Debug\net5.0\package-lock.json
+C:\Users\tkyusuft\Desktop\Web-Codes\Asp.Net Core Mvc-Api\FirstApp\WebApplication1\bin\Debug\net5.0\package.json
+C:\Users\tkyusuft\Desktop\Web-Codes\Asp.Net Core Mvc-Api\FirstApp\WebApplication1\obj\Debug\net5.0\Razor\Views\Home\Create.cshtml.g.cs

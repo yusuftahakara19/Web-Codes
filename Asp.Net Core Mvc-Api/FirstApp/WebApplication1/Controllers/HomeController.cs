@@ -3,29 +3,26 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace FirstApp.Controllers
 {
-    [Route("Quaresma/[action]")]
+
     public class HomeController : Controller
     {
 
         
         public IActionResult Index()
         {
-            //viewbag, viewdata, tempdata, model
-            ViewBag.Name = "Yusuf";
-            ViewData["Name"] = "Taha";
-            TempData["Name"] = "Kara";
-            Customer customer = new() { firstName = "John", lastName = "Wick", age = 42 };
-
-            return View(customer);
-            //return View("Details");
-            //  return RedirectToAction("Details",new {@id = 50});
+            var customers = CustomerContext.Customers;
+            return View(customers);
         }
 
-        public IActionResult Details(int id)
+        public IActionResult Create()
         {
-            Customer customer = new() { firstName = "Walter", lastName = "White", age = id };
-            //Business
-            return View("Test",customer);
+            return View();  
+        }
+
+        [HttpPost]  
+        public IActionResult CreateWithForm()
+        {
+            return View();
         }
     }
 }

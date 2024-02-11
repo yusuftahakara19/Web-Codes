@@ -1,3 +1,50 @@
-﻿@model FirstApp.Models.Customer
+﻿@model List<FirstApp.Models.Customer>
 
-<p>@Model.firstName</p><p>@Model.lastName</p><p>@Model.age</p>
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer - List</title>
+    <link href="~/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+</head>
+<body>
+    <div class="container">
+        <h3>Customer List</h3>
+         <a href="/Home/Create">Create</a>
+        <table class="table table-hover table-bordered">
+            <thead>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Age</th>
+                    <th>Update</th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.firstName</td>
+                        <td>@item.lastName</td>
+                        <td>@item.age</td>
+                        <td> <a href="/Home/Update/@item.Id">Update</td>>
+                        <td> <a href="/Home/Remove/@item.Id">Delete</td>>
+
+
+
+                    </tr>
+                }
+            </tbody>
+
+
+        </table>
+    </div>
+
+
+</body>
+</html>
