@@ -1,20 +1,12 @@
-﻿@model List<FirstApp.Models.Customer>
+﻿@using FirstApp.Models
+@addTagHelper *,Microsoft.AspNetCore.Mvc.TagHelpers
+@model List<Customer>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
 
-
-<!DOCTYPE html>
-<html lang="tr">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Customer - List</title>
-    <link href="~/style.css" rel="stylesheet" />
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-</head>
-<body>
-    <div class="container">
         <h3>Customer List</h3>
-         <a href="/Home/Create">Create</a>
+         <a asp-action="Create" asp-controller="Home">Create</a>
         <table class="table table-hover table-bordered">
             <thead>
                 <tr>
@@ -32,19 +24,13 @@
                         <td>@item.firstName</td>
                         <td>@item.lastName</td>
                         <td>@item.age</td>
-                        <td> <a href="/Home/Update/@item.Id">Update</td>>
-                        <td> <a href="/Home/Remove/@item.Id">Delete</td>>
-
-
-
+                        <td> <a asp-action="Update" asp-controller="Home" asp-route-id="@item.Id">Update</a></td>
+                        <td> <a asp-action="Remove" asp-controller="Home" asp-route-id="@item.Id">Delete</a></td>
                     </tr>
                 }
             </tbody>
 
 
         </table>
-    </div>
+  
 
-
-</body>
-</html>

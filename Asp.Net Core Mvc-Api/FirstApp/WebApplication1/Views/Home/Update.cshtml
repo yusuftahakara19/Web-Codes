@@ -1,0 +1,31 @@
+﻿@addTagHelper *,Microsoft.AspNetCore.Mvc.TagHelpers
+@model FirstApp.Models.Customer
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+            <form asp-action="Update" asp-controller="Home" method="post">
+                <h3>Update Customer</h3>
+            <input type="hidden" name="id" value="@Model.Id"/>
+            <div class="form-group">
+                <label>First Name :</label>
+                <input asp-for="@Model.firstName" class="form-control" value="@Model.firstName"/>
+            </div>
+            
+            <div class="form-group">
+                <label>Last Name :</label>
+                <input asp-for="@Model.lastName" class="form-control" value="@Model.lastName" />
+            </div>
+
+
+            <div class="form-group">
+                <label>Age :</label>
+                <input asp-for="@Model.age" class="form-control" value="@Model.age" />
+            </div>
+
+            <div class="form-group text-right">
+                <button class="btn btn-primary" type="submit">Update</button>
+            </div>
+
+        </form>

@@ -1,5 +1,6 @@
 ﻿using FirstApp.Models;
 using Microsoft.AspNetCore.Mvc;
+using System.Linq;
 
 namespace FirstApp.Controllers
 {
@@ -16,13 +17,56 @@ namespace FirstApp.Controllers
 
         public IActionResult Create()
         {
-            return View();  
+            return View(new Customer());  
         }
 
         [HttpPost]  
-        public IActionResult CreateWithForm()
+        public IActionResult CreateWithForm(Customer customer)
         {
-            return View();
+            Customer lastCustomer = null;
+
+            if (CustomerContext.Customers.Count>0)
+            {
+                lastCustomer = CustomerContext.Customers.Last();
+            }
+
+            customer.Id = 1;
+            if(lastCustomer!= null)
+            {
+                customer.Id= lastCustomer.Id +1;
+            }
+
+            CustomerContext.Customers.Add(customer); 
+
+            return RedirectToAction("Index");
+        }
+
+        [HttpGet]
+        public IActionResult Remove(int id)
+        {
+            var removedCustomer = CustomerContext.Customers.Find(a => a.Id == id);
+            if (removedCustomer != null)
+            {
+                CustomerContext.Customers.Remove(removedCustomer);
+            }
+            return RedirectToAction("Index");
+        }
+
+        [HttpGet]
+        public IActionResult Update(int id)
+        {
+            var updatedCustomer = CustomerContext.Customers.FirstOrDefault(a => a.Id == id);
+            return View(updatedCustomer);
+        }
+
+        [HttpPost]
+        public IActionResult Update(Customer customer)
+        {
+            Customer updatedCustomer = CustomerContext.Customers.FirstOrDefault(x => x.Id == customer.Id);
+            updatedCustomer.firstName = customer.firstName;
+            updatedCustomer.lastName = customer.lastName;
+            updatedCustomer.age = customer.age;
+            return RedirectToAction("Index");
         }
     }
 }
