@@ -12,7 +12,22 @@ namespace AspNetCore
     using global::Microsoft.AspNetCore.Mvc;
     using global::Microsoft.AspNetCore.Mvc.Rendering;
     using global::Microsoft.AspNetCore.Mvc.ViewFeatures;
+#nullable restore
+#line 1 "C:\Users\tkyusuft\Desktop\Web-Codes\Asp.Net Core Mvc-Api\FirstApp\WebApplication1\Views\_ViewImports.cshtml"
+using FirstApp.Models;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 3 "C:\Users\tkyusuft\Desktop\Web-Codes\Asp.Net Core Mvc-Api\FirstApp\WebApplication1\Views\_ViewImports.cshtml"
+using System.IO;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA256", @"2ff2c4617edba6d9dad66d7a096aa6c5576482ebeecef5b302ca70689bdb9919", @"/Views/Shared/_Layout.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA256", @"a8ab0db1575bed276a27882ceaaaa8f3cc2179e250b74c0a281132f9be9fda8c", @"/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Views_Shared__Layout : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     #nullable disable
@@ -46,7 +61,7 @@ namespace AspNetCore
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
             WriteLiteral("<!DOCTYPE html>\r\n\r\n<html>\r\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2ff2c4617edba6d9dad66d7a096aa6c5576482ebeecef5b302ca70689bdb99193796", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2ff2c4617edba6d9dad66d7a096aa6c5576482ebeecef5b302ca70689bdb99194404", async() => {
                 WriteLiteral("\r\n    <meta name=\"viewport\" content=\"width=device-width\" />\r\n    <title>");
 #nullable restore
 #line 6 "C:\Users\tkyusuft\Desktop\Web-Codes\Asp.Net Core Mvc-Api\FirstApp\WebApplication1\Views\Shared\_Layout.cshtml"
@@ -56,7 +71,7 @@ namespace AspNetCore
 #line hidden
 #nullable disable
                 WriteLiteral("</title>\r\n    ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "2ff2c4617edba6d9dad66d7a096aa6c5576482ebeecef5b302ca70689bdb99194424", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "2ff2c4617edba6d9dad66d7a096aa6c5576482ebeecef5b302ca70689bdb99195032", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -83,7 +98,7 @@ namespace AspNetCore
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2ff2c4617edba6d9dad66d7a096aa6c5576482ebeecef5b302ca70689bdb99196334", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2ff2c4617edba6d9dad66d7a096aa6c5576482ebeecef5b302ca70689bdb99196942", async() => {
                 WriteLiteral(@"
     <nav class=""navbar navbar-expand-lg bg-body-tertiary"">
         <div class=""container-fluid"">
