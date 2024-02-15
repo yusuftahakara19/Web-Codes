@@ -1,0 +1,23 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@{
+    if(TempData["message"]!=null)
+    {
+        <div class="bg-info text-dark text-center lead">
+            @TempData["message"];
+        </div>
+    }
+}
+
+<form asp-action="Upload" method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <label for="formFile">File :</label>
+        <input id="formFile" type="file" name="formFile" class="form-control" />
+    </div>
+
+    <div class="form-group text-right">
+        <button type="submit" class="btn btn-primary">Save</button>
+    </div>
+</form>

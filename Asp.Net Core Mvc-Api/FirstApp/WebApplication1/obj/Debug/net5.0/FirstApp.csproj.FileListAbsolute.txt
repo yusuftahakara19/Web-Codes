@@ -50,3 +50,6 @@ C:\Users\tkyusuft\Desktop\Web-Codes\Asp.Net Core Mvc-Api\FirstApp\WebApplication
 C:\Users\tkyusuft\Desktop\Web-Codes\Asp.Net Core Mvc-Api\FirstApp\WebApplication1\obj\Debug\net5.0\Razor\Views\Folder\List.cshtml.g.cs
 C:\Users\tkyusuft\Desktop\Web-Codes\Asp.Net Core Mvc-Api\FirstApp\WebApplication1\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
 C:\Users\tkyusuft\Desktop\Web-Codes\Asp.Net Core Mvc-Api\FirstApp\WebApplication1\obj\Debug\net5.0\Razor\Views\Folder\Create.cshtml.g.cs
+C:\Users\tkyusuft\Desktop\Web-Codes\Asp.Net Core Mvc-Api\FirstApp\WebApplication1\obj\Debug\net5.0\Razor\Views\File\List.cshtml.g.cs
+C:\Users\tkyusuft\Desktop\Web-Codes\Asp.Net Core Mvc-Api\FirstApp\WebApplication1\obj\Debug\net5.0\Razor\Views\File\Create.cshtml.g.cs
+C:\Users\tkyusuft\Desktop\Web-Codes\Asp.Net Core Mvc-Api\FirstApp\WebApplication1\obj\Debug\net5.0\Razor\Views\File\Upload.cshtml.g.cs

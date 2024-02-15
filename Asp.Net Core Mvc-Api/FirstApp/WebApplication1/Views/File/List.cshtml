@@ -1,0 +1,25 @@
+﻿@model FileInfo[]
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<a asp-action="Create">Create New File</a>
+<table class="table table-hovered table-bordered">
+    <thead>
+    <th>Name</th>
+    <th>Creation Time</th>
+    <th>Full Path</th>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Name</td>
+                <td>@item.CreationTime</td>
+                <td>@item.FullName</td>
+                <td><a asp-action="Remove" asp-route-fileName="@item.Name" class="button btn-primary">Delete Folder</a></td>
+            </tr>
+        }
+    </tbody>
+</table>

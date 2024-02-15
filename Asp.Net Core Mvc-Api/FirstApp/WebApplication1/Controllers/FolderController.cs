@@ -27,5 +27,17 @@ namespace FirstApp.Controllers
             }
             return RedirectToAction("List");
         }
+
+        public IActionResult Remove(string folderName)
+        {
+            DirectoryInfo directoryInfo = new DirectoryInfo(Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", folderName));
+
+            if (directoryInfo.Exists)
+            {
+                directoryInfo.Delete(true);
+            }
+            return RedirectToAction("List");
+
+        }
     }
 }

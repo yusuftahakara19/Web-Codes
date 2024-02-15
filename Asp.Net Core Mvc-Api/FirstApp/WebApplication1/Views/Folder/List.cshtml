@@ -17,7 +17,7 @@
         <td>@item.Name</td>
         <td>@item.CreationTime</td>
         <td>@item.FullName</td>
-        <td><a asp-action="Delete" class="button btn-primary">Delete Folder</a></td>
+        <td><a asp-action="Remove" asp-route-folderName="@item.Name" class="button btn-primary">Delete Folder</a></td>
             </tr>
         }
     </tbody>
