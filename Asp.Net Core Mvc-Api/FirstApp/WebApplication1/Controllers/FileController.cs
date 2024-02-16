@@ -29,6 +29,14 @@ namespace FirstApp.Controllers
             return RedirectToAction("List");
         }
 
+        public IActionResult Remove(string fileName)
+        {
+            FileInfo file = new FileInfo(Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "files", fileName));
+            if (file.Exists)
+                file.Delete();
+
+            return RedirectToAction("List");
+        }
         public IActionResult CreateWithData()
         {
             FileInfo file = new FileInfo(Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "files",Guid.NewGuid().ToString()+".txt"));

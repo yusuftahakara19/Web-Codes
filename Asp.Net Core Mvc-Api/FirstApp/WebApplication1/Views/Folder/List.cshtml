@@ -4,21 +4,29 @@
 }
 
 <a asp-action="Create">Create New Folder</a>
-<table class="table table-hovered table-bordered">
-    <thead>
-     <th>Name</th>
-     <th>Creation Time</th>
-     <th>Full Path</th>
-    </thead>
-    <tbody>
-        @foreach(var item in Model)
-        {
-            <tr>
-        <td>@item.Name</td>
-        <td>@item.CreationTime</td>
-        <td>@item.FullName</td>
-        <td><a asp-action="Remove" asp-route-folderName="@item.Name" class="button btn-primary">Delete Folder</a></td>
-            </tr>
-        }
-    </tbody>
-</table>
+
+<div class="row">
+    <div class="col-4">
+        @await Component.InvokeAsync("News", new {@color = "red"})
+    </div>
+    <div class="col-8">
+        <table class="table table-hovered table-bordered">
+            <thead>
+            <th>Name</th>
+            <th>Creation Time</th>
+            <th>Full Path</th>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.Name</td>
+                        <td>@item.CreationTime</td>
+                        <td>@item.FullName</td>
+                        <td><a asp-action="Remove" asp-route-folderName="@item.Name" class="button btn-primary">Delete Folder</a></td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

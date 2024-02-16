@@ -1,0 +1,8 @@
+﻿@model List<News>
+
+<ul class="list-group">
+    @foreach(var item in Model)
+    {
+        <li class="list-group-item">@item.title</li>
+    }
+</ul>
