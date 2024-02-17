@@ -13,21 +13,21 @@ namespace AspNetCore
     using global::Microsoft.AspNetCore.Mvc.Rendering;
     using global::Microsoft.AspNetCore.Mvc.ViewFeatures;
 #nullable restore
-#line 1 "C:\Users\tkyusuft\Desktop\Web-Codes\Asp.Net Core Mvc-Api\FirstApp\WebApplication1\Views\_ViewImports.cshtml"
+#line 3 "C:\Users\tkyusuft\Desktop\Web-Codes\Asp.Net Core Mvc-Api\FirstApp\WebApplication1\Views\_ViewImports.cshtml"
 using FirstApp.Models;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "C:\Users\tkyusuft\Desktop\Web-Codes\Asp.Net Core Mvc-Api\FirstApp\WebApplication1\Views\_ViewImports.cshtml"
+#line 4 "C:\Users\tkyusuft\Desktop\Web-Codes\Asp.Net Core Mvc-Api\FirstApp\WebApplication1\Views\_ViewImports.cshtml"
 using System.IO;
 
 #line default
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA256", @"6ea1ee745a679ad6ff0e18237b7d0392592dd17f5d3846f5d55bdab29557459e", @"/Views/Shared/Components/News/blue.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA256", @"a8ab0db1575bed276a27882ceaaaa8f3cc2179e250b74c0a281132f9be9fda8c", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA256", @"d998f785eee4cd173cf49cc9644ee12a0114818b2a5b66e2cef88b76e90e2e8e", @"/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Views_Shared_Components_News_blue : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<List<News>>
     #nullable disable

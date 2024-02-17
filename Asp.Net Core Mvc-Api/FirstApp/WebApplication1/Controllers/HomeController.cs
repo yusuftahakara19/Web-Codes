@@ -21,24 +21,37 @@ namespace FirstApp.Controllers
         }
 
         [HttpPost]  
-        public IActionResult CreateWithForm(Customer customer)
+        public IActionResult Create(Customer customer)
         {
-            Customer lastCustomer = null;
-
-            if (CustomerContext.Customers.Count>0)
+            //var validControl = ModelState.IsValid;
+            //var errors = ModelState.Values.SelectMany(x => x.Errors.Select(y=>y.ErrorMessage));
+            ModelState.Remove("Id");
+            if(customer.firstName == "admin")
             {
-                lastCustomer = CustomerContext.Customers.Last();
+                ModelState.AddModelError("","Firstname cannot be 'admin'");
             }
 
-            customer.Id = 1;
-            if(lastCustomer!= null)
+            if (ModelState.IsValid)
             {
-                customer.Id= lastCustomer.Id +1;
+                Customer lastCustomer = null;
+
+                if (CustomerContext.Customers.Count > 0)
+                {
+                    lastCustomer = CustomerContext.Customers.Last();
+                }
+
+                customer.Id = 1;
+                if (lastCustomer != null)
+                {
+                    customer.Id = lastCustomer.Id + 1;
+                }
+
+                CustomerContext.Customers.Add(customer);
+
+                return RedirectToAction("Index");
             }
+            return View();
 
-            CustomerContext.Customers.Add(customer); 
-
-            return RedirectToAction("Index");
         }
 
         [HttpGet]
