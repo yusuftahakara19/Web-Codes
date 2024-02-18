@@ -1,4 +1,5 @@
-﻿using FirstApp.Models;
+﻿using FirstApp.Filters;
+using FirstApp.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Linq;
 
@@ -20,7 +21,8 @@ namespace FirstApp.Controllers
             return View(new Customer());  
         }
 
-        [HttpPost]  
+        [HttpPost]
+        [ValidFirstName]
         public IActionResult Create(Customer customer)
         {
             //var validControl = ModelState.IsValid;
@@ -80,6 +82,11 @@ namespace FirstApp.Controllers
             updatedCustomer.lastName = customer.lastName;
             updatedCustomer.age = customer.age;
             return RedirectToAction("Index");
+        }
+
+        public IActionResult Status(int? code)
+        {
+            return View();
         }
     }
 }

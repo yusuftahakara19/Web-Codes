@@ -23,6 +23,7 @@ namespace WebApplication1
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddSession();
             services.AddRazorPages();
             services.AddControllersWithViews(); 
         }
@@ -39,10 +40,10 @@ namespace WebApplication1
                 app.UseExceptionHandler("/Error");
             }
 
+            app.UseStatusCodePagesWithReExecute("/Home/Status", "?code={0}");
             app.UseStaticFiles();
-
             app.UseRouting();
-         //   app.UseStaticFiles();
+            app.UseSession();
             app.UseEndpoints(endpoints =>
             {
 

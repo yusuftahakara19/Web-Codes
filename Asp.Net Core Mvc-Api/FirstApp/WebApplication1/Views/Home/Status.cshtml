@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 Not Found</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+        }
+
+        .bg-404 {
+            background: url('https://source.unsplash.com/1600x900/?abstract,landscape') no-repeat center center;
+            background-size: cover;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+        }
+
+        .overlay {
+            background-color: rgba(0, 0, 0, 0.5);
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+        }
+
+        .content {
+            position: relative;
+            z-index: 2;
+        }
+
+        .btn-back {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    
+<div class="bg-404">
+    <div class="overlay"></div>
+    <div class="content">
+        <h1 class="display-3">Oops! 404 Not Found</h1>
+            <p class="lead">
+                Sorry, the page you are looking for is incorrect.
+            </p>
+        <a asp-action="Index" class="btn btn-primary btn-lg btn-back">Turn Home</a>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
