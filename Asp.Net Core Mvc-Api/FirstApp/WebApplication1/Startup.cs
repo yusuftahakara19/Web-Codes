@@ -29,7 +29,7 @@ namespace WebApplication1
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, IConfiguration configuration)
         {
             if (env.IsDevelopment())
             {
@@ -40,6 +40,9 @@ namespace WebApplication1
                 app.UseExceptionHandler("/Error");
             }
 
+            var fullName = configuration.GetSection("FullName").Value;
+
+            app.UseExceptionHandler("/Home/Error");
             app.UseStatusCodePagesWithReExecute("/Home/Status", "?code={0}");
             app.UseStaticFiles();
             app.UseRouting();

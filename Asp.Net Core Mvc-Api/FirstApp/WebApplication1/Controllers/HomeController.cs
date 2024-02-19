@@ -1,6 +1,9 @@
 ﻿using FirstApp.Filters;
 using FirstApp.Models;
+using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
+using System;
+using System.IO;
 using System.Linq;
 
 namespace FirstApp.Controllers
@@ -87,6 +90,41 @@ namespace FirstApp.Controllers
         public IActionResult Status(int? code)
         {
             return View();
+        }
+
+        public IActionResult Error()
+        {
+            var exceptionHandlerPathFeature = HttpContext.Features.Get<IExceptionHandlerPathFeature>();
+
+            var logFolderPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "logs");
+            var logFileName = DateTime.Now.ToString();
+
+            logFileName = logFileName.Replace(" ", "_");
+            logFileName = logFileName.Replace("/", "-");
+            logFileName = logFileName.Replace(":", "_");
+            logFileName += ".txt";
+            
+            var logFilePath = Path.Combine(logFolderPath, logFileName);
+
+            DirectoryInfo directory = new DirectoryInfo(logFolderPath);
+
+            if (!directory.Exists)
+            {
+                directory.Create();
+            }
+
+            FileInfo file = new FileInfo(logFilePath);
+
+            var writer = file.CreateText();
+            writer.WriteLine("Error path : " + exceptionHandlerPathFeature.Path);
+            writer.WriteLine("Error : " + exceptionHandlerPathFeature.Error.Message);
+
+            return View();
+        }
+
+        public IActionResult Err()
+        {
+            throw new System.Exception("An Error Occurred");
         }
     }
 }

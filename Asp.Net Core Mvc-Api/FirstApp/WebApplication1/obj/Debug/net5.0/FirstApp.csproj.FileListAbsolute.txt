@@ -61,3 +61,4 @@ C:\Users\tkyusuft\Desktop\Web-Codes\Asp.Net Core Mvc-Api\FirstApp\WebApplication
 C:\Users\tkyusuft\Desktop\Web-Codes\Asp.Net Core Mvc-Api\FirstApp\WebApplication1\obj\Debug\net5.0\Razor\Views\Cookie\Index.cshtml.g.cs
 C:\Users\tkyusuft\Desktop\Web-Codes\Asp.Net Core Mvc-Api\FirstApp\WebApplication1\obj\Debug\net5.0\Razor\Views\Session\Index.cshtml.g.cs
 C:\Users\tkyusuft\Desktop\Web-Codes\Asp.Net Core Mvc-Api\FirstApp\WebApplication1\obj\Debug\net5.0\Razor\Views\Home\Status.cshtml.g.cs
+C:\Users\tkyusuft\Desktop\Web-Codes\Asp.Net Core Mvc-Api\FirstApp\WebApplication1\obj\Debug\net5.0\Razor\Views\Home\Error.cshtml.g.cs
