@@ -1,0 +1,29 @@
+﻿@model UserListModel
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row mt-3">
+    <div class="col-6">
+        <h3>Information of the Person</h3>
+        <p>User's Name : @Model.Name</p>
+        <p>User's Surname : @Model.Surname</p>
+        <p>Number of Active Accounts of the User : <getAccountCount application-user-id="@Model.Id"></getAccountCount></p>
+    </div>
+    <div class="col-6">
+        <form method="post" asp-action="Create" asp-controller="Account">
+            <input type="hidden" name="ApplicationUserId" value="@Model.Id" />
+            <div class="mb-3">
+                <label class="form-label">Account Number:</label>
+                <input type="number" name="AccountNumber" class="form-control" />
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Balance :</label>
+                <input type="number" class="form-control" name="Balance" />
+            </div>
+            <div class="mb-3">
+                <button class="btn btn-primary">Save</button>
+            </div>
+        </form>
+    </div>
+</div>
