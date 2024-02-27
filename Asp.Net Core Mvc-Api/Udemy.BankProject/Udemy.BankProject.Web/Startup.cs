@@ -11,6 +11,9 @@ using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using Udemy.BankProject.Web.Data.Context;
+using Udemy.BankProject.Web.Data.Interfaces;
+using Udemy.BankProject.Web.Data.Repositories;
+using Udemy.BankProject.Web.Mapping;
 
 namespace Udemy.BankProject.Web
 {
@@ -24,6 +27,10 @@ namespace Udemy.BankProject.Web
             {
                 opt.UseSqlServer("server=ARC166NB\\SQLEXPRESS; database=UdemyEfCore.Bank;integrated security=true;");
             });
+            services.AddScoped<IApplicationUserRepository, ApplicationUserRepository>();
+            services.AddScoped<IUserMapper, UserMapper>();
+            services.AddScoped<IAccountMapper, AccountMapper>();
+            services.AddScoped<IAccountRepository, AccountRepository>();
             services.AddControllersWithViews();
         }
 

@@ -1,38 +1,37 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Linq;
 using Udemy.BankProject.Web.Data.Context;
+using Udemy.BankProject.Web.Data.Interfaces;
+using Udemy.BankProject.Web.Data.Repositories;
+using Udemy.BankProject.Web.Mapping;
 using Udemy.BankProject.Web.Models;
 
 namespace Udemy.BankProject.Web.Controllers
 {
     public class AccountController : Controller
     {
-        private readonly BankContext _context;
+        private readonly IApplicationUserRepository _applicationUserRepository;
+        private readonly IAccountRepository _accountRepository;
+        private readonly IUserMapper _userMapper;
+        private readonly IAccountMapper _accountMapper;
 
-        public AccountController(BankContext context)
+        public AccountController( IApplicationUserRepository applicationUserRepository, IUserMapper userMapper, IAccountRepository accountRepository, IAccountMapper accountMapper)
         {
-            _context = context;
+            _applicationUserRepository = applicationUserRepository;
+            _userMapper = userMapper;
+            _accountRepository = accountRepository;
+            _accountMapper = accountMapper;
         }
 
-        public IActionResult Create(int Id)
+         public IActionResult Create(int Id)
         {
-            var userInfo = _context.ApplicationUsers.Select(x=> new UserListModel
-            {
-                Id = x.Id, Name = x.Name, Surname = x.Surname
-            }).SingleOrDefault(x => x.Id == Id);
+            var userInfo = _userMapper.MapToUserList(_applicationUserRepository.GetById(Id));
             return View(userInfo);
         }
 
         [HttpPost]
         public IActionResult Create(AccountCreateModel model) {
-
-            _context.Accounts.Add(new Data.Entities.Account
-            {
-                Balance = model.Balance,
-                AccountNumber = model.AccountNumber,
-                ApplicationUserId = model.ApplicationUserId
-            });
-            _context.SaveChanges();
+            _accountRepository.Create(_accountMapper.Map(model));
             return RedirectToAction("Index","Home");
         }
     }
