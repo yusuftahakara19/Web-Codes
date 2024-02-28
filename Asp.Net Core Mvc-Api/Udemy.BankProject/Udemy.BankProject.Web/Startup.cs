@@ -27,6 +27,8 @@ namespace Udemy.BankProject.Web
             {
                 opt.UseSqlServer("server=ARC166NB\\SQLEXPRESS; database=UdemyEfCore.Bank;integrated security=true;");
             });
+
+            services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
             services.AddScoped<IApplicationUserRepository, ApplicationUserRepository>();
             services.AddScoped<IUserMapper, UserMapper>();
             services.AddScoped<IAccountMapper, AccountMapper>();
