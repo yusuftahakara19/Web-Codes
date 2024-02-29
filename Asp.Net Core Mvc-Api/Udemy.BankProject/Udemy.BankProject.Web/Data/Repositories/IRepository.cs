@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 
 namespace Udemy.BankProject.Web.Data.Repositories
 {
@@ -9,5 +10,6 @@ namespace Udemy.BankProject.Web.Data.Repositories
         List<T> GetAll();
         T GetById(object id);
         void Update(T entity);
+        IQueryable<T> GetQueryable();
     }
 }

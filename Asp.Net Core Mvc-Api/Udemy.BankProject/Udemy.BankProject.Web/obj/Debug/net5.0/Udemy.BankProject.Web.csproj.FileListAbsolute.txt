@@ -73,3 +73,4 @@ C:\Users\tkyusuft\Desktop\Web-Codes\Asp.Net Core Mvc-Api\Udemy.BankProject\Udemy
 C:\Users\tkyusuft\Desktop\Web-Codes\Asp.Net Core Mvc-Api\Udemy.BankProject\Udemy.BankProject.Web\obj\Debug\net5.0\Udemy.BankProject.Web.csproj.AssemblyReference.cache
 C:\Users\tkyusuft\Desktop\Web-Codes\Asp.Net Core Mvc-Api\Udemy.BankProject\Udemy.BankProject.Web\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
 C:\Users\tkyusuft\Desktop\Web-Codes\Asp.Net Core Mvc-Api\Udemy.BankProject\Udemy.BankProject.Web\obj\Debug\net5.0\Razor\Views\Account\Create.cshtml.g.cs
+C:\Users\tkyusuft\Desktop\Web-Codes\Asp.Net Core Mvc-Api\Udemy.BankProject\Udemy.BankProject.Web\obj\Debug\net5.0\Razor\Views\Account\GetAccountsByUserId.cshtml.g.cs
