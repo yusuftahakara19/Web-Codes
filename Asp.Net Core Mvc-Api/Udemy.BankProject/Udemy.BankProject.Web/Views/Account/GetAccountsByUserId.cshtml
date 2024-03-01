@@ -23,7 +23,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Account No : @account.AccountNumber</h5>
                         <p class="card-text">Balance : @account.Balance</p>
-                        <a href="#" class="btn btn-primary">Send Money</a>
+                        <a asp-action="SendMoney" asp-controller="Account" asp-route-accountId="@account.Id" class="btn btn-primary">Send Money</a>
                     </div>
                 </div>
             }

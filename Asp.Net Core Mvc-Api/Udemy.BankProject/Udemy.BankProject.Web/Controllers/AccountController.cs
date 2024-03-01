@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using System.Collections.Generic;
 using System.Linq;
 using Udemy.BankProject.Web.Data.Context;
@@ -85,7 +86,21 @@ namespace Udemy.BankProject.Web.Controllers
             {
                 list.Add(new AccountListModel { Balance = account.Balance, ApplicationUserId = account.ApplicationUserId, AccountNumber = account.AccountNumber, Id = account.Id });
             }
-            return View(list);
+            return View(new SelectList(list,"Id","AccountNumber"));
+        }
+        
+        [HttpPost]
+        public IActionResult SendMoney(SendMoneyModel model)
+        {
+            var senderAccount = _accountRepository.GetById(model.SenderId);
+            senderAccount.Balance -= model.Amount;
+            _accountRepository.Update(senderAccount);
+
+            var account = _accountRepository.GetById(model.AccountId);
+            account.Balance += model.Amount;    
+            _accountRepository.Update(account);
+
+            return RedirectToAction("Index", "Home");
         }
     }
 }
