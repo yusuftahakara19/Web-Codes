@@ -1,0 +1,91 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "Udemy.TodoAppNTier.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Udemy.TodoAppNTier.Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Udemy.TodoAppNTier.Entities.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Udemy.TodoAppNTier.Entities/1.0.0": {
+      "type": "project",
+      "path": "../Udemy.TodoAppNTier.Entities/Udemy.TodoAppNTier.Entities.csproj",
+      "msbuildProject": "../Udemy.TodoAppNTier.Entities/Udemy.TodoAppNTier.Entities.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "Udemy.TodoAppNTier.Entities >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\ytkar\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Web-Codes\\Asp.Net Core Mvc-Api\\Udemy.ToDoAppNTier\\Udemy.TodoAppNTier.DataAccess\\Udemy.TodoAppNTier.DataAccess.csproj",
+      "projectName": "Udemy.TodoAppNTier.DataAccess",
+      "projectPath": "D:\\Web-Codes\\Asp.Net Core Mvc-Api\\Udemy.ToDoAppNTier\\Udemy.TodoAppNTier.DataAccess\\Udemy.TodoAppNTier.DataAccess.csproj",
+      "packagesPath": "C:\\Users\\ytkar\\.nuget\\packages\\",
+      "outputPath": "D:\\Web-Codes\\Asp.Net Core Mvc-Api\\Udemy.ToDoAppNTier\\Udemy.TodoAppNTier.DataAccess\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\ytkar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "D:\\Web-Codes\\Asp.Net Core Mvc-Api\\Udemy.ToDoAppNTier\\Udemy.TodoAppNTier.Entities\\Udemy.TodoAppNTier.Entities.csproj": {
+              "projectPath": "D:\\Web-Codes\\Asp.Net Core Mvc-Api\\Udemy.ToDoAppNTier\\Udemy.TodoAppNTier.Entities\\Udemy.TodoAppNTier.Entities.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

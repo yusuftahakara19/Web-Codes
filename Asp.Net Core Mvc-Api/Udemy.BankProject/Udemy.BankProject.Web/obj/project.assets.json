@@ -6042,19 +6042,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\tkyusuft\\.nuget\\packages\\": {}
+    "C:\\Users\\ytkar\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tkyusuft\\Desktop\\Web-Codes\\Asp.Net Core Mvc-Api\\Udemy.BankProject\\Udemy.BankProject.Web\\Udemy.BankProject.Web.csproj",
+      "projectUniqueName": "D:\\Web-Codes\\Asp.Net Core Mvc-Api\\Udemy.BankProject\\Udemy.BankProject.Web\\Udemy.BankProject.Web.csproj",
       "projectName": "Udemy.BankProject.Web",
-      "projectPath": "C:\\Users\\tkyusuft\\Desktop\\Web-Codes\\Asp.Net Core Mvc-Api\\Udemy.BankProject\\Udemy.BankProject.Web\\Udemy.BankProject.Web.csproj",
-      "packagesPath": "C:\\Users\\tkyusuft\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tkyusuft\\Desktop\\Web-Codes\\Asp.Net Core Mvc-Api\\Udemy.BankProject\\Udemy.BankProject.Web\\obj\\",
+      "projectPath": "D:\\Web-Codes\\Asp.Net Core Mvc-Api\\Udemy.BankProject\\Udemy.BankProject.Web\\Udemy.BankProject.Web.csproj",
+      "packagesPath": "C:\\Users\\ytkar\\.nuget\\packages\\",
+      "outputPath": "D:\\Web-Codes\\Asp.Net Core Mvc-Api\\Udemy.BankProject\\Udemy.BankProject.Web\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\tkyusuft\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ytkar\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6120,7 +6120,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
