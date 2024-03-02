@@ -13,6 +13,7 @@ using System.Threading.Tasks;
 using Udemy.BankProject.Web.Data.Context;
 using Udemy.BankProject.Web.Data.Interfaces;
 using Udemy.BankProject.Web.Data.Repositories;
+using Udemy.BankProject.Web.Data.UnitOfWork;
 using Udemy.BankProject.Web.Mapping;
 
 namespace Udemy.BankProject.Web
@@ -30,6 +31,7 @@ namespace Udemy.BankProject.Web
 
             //services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
             //services.AddScoped<IApplicationUserRepository, ApplicationUserRepository>();
+            services.AddScoped<IUow, Uow>();
             services.AddScoped<IUserMapper, UserMapper>();
             services.AddScoped<IAccountMapper, AccountMapper>();
             services.AddScoped<IAccountRepository, AccountRepository>();
