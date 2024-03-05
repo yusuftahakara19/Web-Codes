@@ -1763,6 +1763,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "Udemy.TodoAppNTier.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Udemy.TodoAppNTier.Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Udemy.TodoAppNTier.Entities.dll": {}
+        }
       }
     }
   },
@@ -6031,30 +6041,35 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "Udemy.TodoAppNTier.Entities/1.0.0": {
+      "type": "project",
+      "path": "../Udemy.TodoAppNTier.Entities/Udemy.TodoAppNTier.Entities.csproj",
+      "msbuildProject": "../Udemy.TodoAppNTier.Entities/Udemy.TodoAppNTier.Entities.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
       "Microsoft.EntityFrameworkCore >= 5.0.16",
-      "Microsoft.EntityFrameworkCore.Design >= 5.0.16",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.16",
-      "Microsoft.EntityFrameworkCore.Tools >= 5.0.16"
+      "Microsoft.EntityFrameworkCore.Tools >= 5.0.16",
+      "Udemy.TodoAppNTier.Entities >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ytkar\\.nuget\\packages\\": {}
+    "C:\\Users\\tkyusuft\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Web-Codes\\Asp.Net Core Mvc-Api\\Udemy.BankProject\\Udemy.BankProject.Web\\Udemy.BankProject.Web.csproj",
-      "projectName": "Udemy.BankProject.Web",
-      "projectPath": "D:\\Web-Codes\\Asp.Net Core Mvc-Api\\Udemy.BankProject\\Udemy.BankProject.Web\\Udemy.BankProject.Web.csproj",
-      "packagesPath": "C:\\Users\\ytkar\\.nuget\\packages\\",
-      "outputPath": "D:\\Web-Codes\\Asp.Net Core Mvc-Api\\Udemy.BankProject\\Udemy.BankProject.Web\\obj\\",
+      "projectUniqueName": "C:\\Users\\tkyusuft\\Desktop\\Web-Codes\\Asp.Net Core Mvc-Api\\Udemy.ToDoAppNTier\\Udemy.TodoAppNTier.DataAccess\\Udemy.TodoAppNTier.DataAccess.csproj",
+      "projectName": "Udemy.TodoAppNTier.DataAccess",
+      "projectPath": "C:\\Users\\tkyusuft\\Desktop\\Web-Codes\\Asp.Net Core Mvc-Api\\Udemy.ToDoAppNTier\\Udemy.TodoAppNTier.DataAccess\\Udemy.TodoAppNTier.DataAccess.csproj",
+      "packagesPath": "C:\\Users\\tkyusuft\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\tkyusuft\\Desktop\\Web-Codes\\Asp.Net Core Mvc-Api\\Udemy.ToDoAppNTier\\Udemy.TodoAppNTier.DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ytkar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\tkyusuft\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6067,7 +6082,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\tkyusuft\\Desktop\\Web-Codes\\Asp.Net Core Mvc-Api\\Udemy.ToDoAppNTier\\Udemy.TodoAppNTier.Entities\\Udemy.TodoAppNTier.Entities.csproj": {
+              "projectPath": "C:\\Users\\tkyusuft\\Desktop\\Web-Codes\\Asp.Net Core Mvc-Api\\Udemy.ToDoAppNTier\\Udemy.TodoAppNTier.Entities\\Udemy.TodoAppNTier.Entities.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -6081,12 +6100,6 @@
         "targetAlias": "net5.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": {
-            "target": "Package",
-            "version": "[5.0.16, )"
-          },
-          "Microsoft.EntityFrameworkCore.Design": {
-            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-            "suppressParent": "All",
             "target": "Package",
             "version": "[5.0.16, )"
           },
@@ -6113,14 +6126,11 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
-          "Microsoft.AspNetCore.App": {
-            "privateAssets": "none"
-          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

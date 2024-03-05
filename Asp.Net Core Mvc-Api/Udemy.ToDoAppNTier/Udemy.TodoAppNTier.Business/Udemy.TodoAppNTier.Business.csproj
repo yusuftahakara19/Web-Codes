@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Udemy.TodoAppNTier.DataAccess\Udemy.TodoAppNTier.DataAccess.csproj" />
+    <ProjectReference Include="..\Udemy.TodoAppNTier.Dtos\Udemy.TodoAppNTier.Dtos.csproj" />
+  </ItemGroup>
+
+</Project>
