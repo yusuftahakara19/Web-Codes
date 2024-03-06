@@ -1,0 +1,11 @@
+C:\Users\tkyusuft\Desktop\Web-Codes\Asp.Net Core Mvc-Api\Udemy.ToDoAppNTier\Udemy.TodoAppNTier.Dtos\bin\Debug\net5.0\Udemy.TodoAppNTier.Dtos.deps.json
+C:\Users\tkyusuft\Desktop\Web-Codes\Asp.Net Core Mvc-Api\Udemy.ToDoAppNTier\Udemy.TodoAppNTier.Dtos\bin\Debug\net5.0\Udemy.TodoAppNTier.Dtos.dll
+C:\Users\tkyusuft\Desktop\Web-Codes\Asp.Net Core Mvc-Api\Udemy.ToDoAppNTier\Udemy.TodoAppNTier.Dtos\bin\Debug\net5.0\Udemy.TodoAppNTier.Dtos.pdb
+C:\Users\tkyusuft\Desktop\Web-Codes\Asp.Net Core Mvc-Api\Udemy.ToDoAppNTier\Udemy.TodoAppNTier.Dtos\obj\Debug\net5.0\Udemy.TodoAppNTier.Dtos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tkyusuft\Desktop\Web-Codes\Asp.Net Core Mvc-Api\Udemy.ToDoAppNTier\Udemy.TodoAppNTier.Dtos\obj\Debug\net5.0\Udemy.TodoAppNTier.Dtos.AssemblyInfoInputs.cache
+C:\Users\tkyusuft\Desktop\Web-Codes\Asp.Net Core Mvc-Api\Udemy.ToDoAppNTier\Udemy.TodoAppNTier.Dtos\obj\Debug\net5.0\Udemy.TodoAppNTier.Dtos.AssemblyInfo.cs
+C:\Users\tkyusuft\Desktop\Web-Codes\Asp.Net Core Mvc-Api\Udemy.ToDoAppNTier\Udemy.TodoAppNTier.Dtos\obj\Debug\net5.0\Udemy.TodoAppNTier.Dtos.csproj.CoreCompileInputs.cache
+C:\Users\tkyusuft\Desktop\Web-Codes\Asp.Net Core Mvc-Api\Udemy.ToDoAppNTier\Udemy.TodoAppNTier.Dtos\obj\Debug\net5.0\Udemy.TodoAppNTier.Dtos.dll
+C:\Users\tkyusuft\Desktop\Web-Codes\Asp.Net Core Mvc-Api\Udemy.ToDoAppNTier\Udemy.TodoAppNTier.Dtos\obj\Debug\net5.0\refint\Udemy.TodoAppNTier.Dtos.dll
+C:\Users\tkyusuft\Desktop\Web-Codes\Asp.Net Core Mvc-Api\Udemy.ToDoAppNTier\Udemy.TodoAppNTier.Dtos\obj\Debug\net5.0\Udemy.TodoAppNTier.Dtos.pdb
+C:\Users\tkyusuft\Desktop\Web-Codes\Asp.Net Core Mvc-Api\Udemy.ToDoAppNTier\Udemy.TodoAppNTier.Dtos\obj\Debug\net5.0\ref\Udemy.TodoAppNTier.Dtos.dll

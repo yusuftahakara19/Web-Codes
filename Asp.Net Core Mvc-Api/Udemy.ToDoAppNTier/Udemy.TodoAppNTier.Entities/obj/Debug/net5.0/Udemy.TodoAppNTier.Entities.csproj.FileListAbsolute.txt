@@ -1,0 +1,11 @@
+C:\Users\tkyusuft\Desktop\Web-Codes\Asp.Net Core Mvc-Api\Udemy.ToDoAppNTier\Udemy.TodoAppNTier.Entities\bin\Debug\net5.0\Udemy.TodoAppNTier.Entities.deps.json
+C:\Users\tkyusuft\Desktop\Web-Codes\Asp.Net Core Mvc-Api\Udemy.ToDoAppNTier\Udemy.TodoAppNTier.Entities\bin\Debug\net5.0\Udemy.TodoAppNTier.Entities.dll
+C:\Users\tkyusuft\Desktop\Web-Codes\Asp.Net Core Mvc-Api\Udemy.ToDoAppNTier\Udemy.TodoAppNTier.Entities\bin\Debug\net5.0\Udemy.TodoAppNTier.Entities.pdb
+C:\Users\tkyusuft\Desktop\Web-Codes\Asp.Net Core Mvc-Api\Udemy.ToDoAppNTier\Udemy.TodoAppNTier.Entities\obj\Debug\net5.0\Udemy.TodoAppNTier.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tkyusuft\Desktop\Web-Codes\Asp.Net Core Mvc-Api\Udemy.ToDoAppNTier\Udemy.TodoAppNTier.Entities\obj\Debug\net5.0\Udemy.TodoAppNTier.Entities.AssemblyInfoInputs.cache
+C:\Users\tkyusuft\Desktop\Web-Codes\Asp.Net Core Mvc-Api\Udemy.ToDoAppNTier\Udemy.TodoAppNTier.Entities\obj\Debug\net5.0\Udemy.TodoAppNTier.Entities.AssemblyInfo.cs
+C:\Users\tkyusuft\Desktop\Web-Codes\Asp.Net Core Mvc-Api\Udemy.ToDoAppNTier\Udemy.TodoAppNTier.Entities\obj\Debug\net5.0\Udemy.TodoAppNTier.Entities.csproj.CoreCompileInputs.cache
+C:\Users\tkyusuft\Desktop\Web-Codes\Asp.Net Core Mvc-Api\Udemy.ToDoAppNTier\Udemy.TodoAppNTier.Entities\obj\Debug\net5.0\Udemy.TodoAppNTier.Entities.dll
+C:\Users\tkyusuft\Desktop\Web-Codes\Asp.Net Core Mvc-Api\Udemy.ToDoAppNTier\Udemy.TodoAppNTier.Entities\obj\Debug\net5.0\refint\Udemy.TodoAppNTier.Entities.dll
+C:\Users\tkyusuft\Desktop\Web-Codes\Asp.Net Core Mvc-Api\Udemy.ToDoAppNTier\Udemy.TodoAppNTier.Entities\obj\Debug\net5.0\Udemy.TodoAppNTier.Entities.pdb
+C:\Users\tkyusuft\Desktop\Web-Codes\Asp.Net Core Mvc-Api\Udemy.ToDoAppNTier\Udemy.TodoAppNTier.Entities\obj\Debug\net5.0\ref\Udemy.TodoAppNTier.Entities.dll
