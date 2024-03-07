@@ -31,7 +31,7 @@
   },
   "targets": {
     ".NETCoreApp,Version=v5.0": {
-      "Udemy.ToDoAppNTier.UI/1.0.0": {
+      "Udemy.TodoAppNTier.UI/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Design": "5.0.16",
           "Udemy.TodoAppNTier.Business": "1.0.0",
@@ -318,10 +318,10 @@
           "WindowsBase": "4.0.0.0"
         },
         "runtime": {
-          "Udemy.ToDoAppNTier.UI.dll": {}
+          "Udemy.TodoAppNTier.UI.dll": {}
         },
         "compile": {
-          "Udemy.ToDoAppNTier.UI.dll": {}
+          "Udemy.TodoAppNTier.UI.dll": {}
         }
       },
       "Humanizer.Core/2.8.26": {
@@ -3037,7 +3037,7 @@
     }
   },
   "libraries": {
-    "Udemy.ToDoAppNTier.UI/1.0.0": {
+    "Udemy.TodoAppNTier.UI/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

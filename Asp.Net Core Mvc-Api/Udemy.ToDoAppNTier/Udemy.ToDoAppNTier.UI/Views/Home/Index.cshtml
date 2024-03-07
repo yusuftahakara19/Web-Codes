@@ -1,0 +1,37 @@
+﻿@model List<WorkListDto>
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+    <link href="~/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container my-2">
+        <div class="text-end my-2">
+            <a asp-action="Create" asp-controller="Home" class="btn btn-primary btn-sm">Add New Work</a>
+        </div>
+        <table class="table table-hovered table-bordered table-sm">
+            <thead>
+                <tr>
+                    <th>Work</th>
+                    <th>State</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach(var item in Model)
+                {
+                    <tr>
+                        <td>@item.Definition</td>
+                        <td>@(item.IsCompleted?"Completed":"Not Completed")</td>
+                        <td><a asp-action="Update" asp-controller="Home" asp-route-id="@item.Id" class="btn btn-warning btn-sm d-block w-100 m-2">Update</a></td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+    
+</body>
+</html>

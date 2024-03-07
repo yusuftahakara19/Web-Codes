@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tkyusuft\\Desktop\\Web-Codes\\Asp.Net Core Mvc-Api\\Udemy.ToDoAppNTier\\Udemy.ToDoAppNTier.UI\\Udemy.ToDoAppNTier.UI.csproj": {}
+    "C:\\Users\\tkyusuft\\Desktop\\Web-Codes\\Asp.Net Core Mvc-Api\\Udemy.ToDoAppNTier\\Udemy.ToDoAppNTier.UI\\Udemy.TodoAppNTier.UI.csproj": {}
   },
   "projects": {
     "C:\\Users\\tkyusuft\\Desktop\\Web-Codes\\Asp.Net Core Mvc-Api\\Udemy.ToDoAppNTier\\Udemy.TodoAppNTier.Business\\Udemy.TodoAppNTier.Business.csproj": {
@@ -251,12 +251,12 @@
         }
       }
     },
-    "C:\\Users\\tkyusuft\\Desktop\\Web-Codes\\Asp.Net Core Mvc-Api\\Udemy.ToDoAppNTier\\Udemy.ToDoAppNTier.UI\\Udemy.ToDoAppNTier.UI.csproj": {
+    "C:\\Users\\tkyusuft\\Desktop\\Web-Codes\\Asp.Net Core Mvc-Api\\Udemy.ToDoAppNTier\\Udemy.ToDoAppNTier.UI\\Udemy.TodoAppNTier.UI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tkyusuft\\Desktop\\Web-Codes\\Asp.Net Core Mvc-Api\\Udemy.ToDoAppNTier\\Udemy.ToDoAppNTier.UI\\Udemy.ToDoAppNTier.UI.csproj",
-        "projectName": "Udemy.ToDoAppNTier.UI",
-        "projectPath": "C:\\Users\\tkyusuft\\Desktop\\Web-Codes\\Asp.Net Core Mvc-Api\\Udemy.ToDoAppNTier\\Udemy.ToDoAppNTier.UI\\Udemy.ToDoAppNTier.UI.csproj",
+        "projectUniqueName": "C:\\Users\\tkyusuft\\Desktop\\Web-Codes\\Asp.Net Core Mvc-Api\\Udemy.ToDoAppNTier\\Udemy.ToDoAppNTier.UI\\Udemy.TodoAppNTier.UI.csproj",
+        "projectName": "Udemy.TodoAppNTier.UI",
+        "projectPath": "C:\\Users\\tkyusuft\\Desktop\\Web-Codes\\Asp.Net Core Mvc-Api\\Udemy.ToDoAppNTier\\Udemy.ToDoAppNTier.UI\\Udemy.TodoAppNTier.UI.csproj",
         "packagesPath": "C:\\Users\\tkyusuft\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\tkyusuft\\Desktop\\Web-Codes\\Asp.Net Core Mvc-Api\\Udemy.ToDoAppNTier\\Udemy.ToDoAppNTier.UI\\obj\\",
         "projectStyle": "PackageReference",

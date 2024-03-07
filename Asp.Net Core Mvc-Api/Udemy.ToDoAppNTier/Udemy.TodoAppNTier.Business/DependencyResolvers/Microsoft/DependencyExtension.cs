@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,6 +20,7 @@ namespace Udemy.TodoAppNTier.Business.DependencyResolvers.Microsoft
             services.AddDbContext<TodoContext>(opt =>
             {
                 opt.UseSqlServer("server=ARC166NB\\SQLEXPRESS; database=TodoDb; integrated security=true;");
+                opt.LogTo(Console.WriteLine, LogLevel.Information);
             });
             services.AddScoped<IUow, Uow>();
             services.AddScoped<IWorkService, WorkService>();    

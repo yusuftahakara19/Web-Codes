@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 using Udemy.TodoAppNTier.Business.Interfaces;
 using Udemy.TodoAppNTier.DataAccess.Domains;
@@ -46,9 +43,9 @@ namespace Udemy.TodoAppNTier.Business.Services
             return workList;
         }
 
-        public async Task<WorkListDto> GetById(object id)
+        public async Task<WorkListDto> GetById(int id)
         {
-            var work = await _uow.GetRepository<Work>().GetById(id);
+            var work = await _uow.GetRepository<Work>().GetByFilter(x => x.Id == id);
             return new() {
                 Definition = work.Definition,
                 IsCompleted = work.IsCompleted
@@ -72,5 +69,6 @@ namespace Udemy.TodoAppNTier.Business.Services
             });
             await _uow.SaveChanges();
         }
-    }
+    
+    } 
 }
