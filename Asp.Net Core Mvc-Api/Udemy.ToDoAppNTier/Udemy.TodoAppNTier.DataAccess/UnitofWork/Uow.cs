@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Udemy.TodoAppNTier.DataAccess.Contexts;
 using Udemy.TodoAppNTier.DataAccess.Interfaces;
 using Udemy.TodoAppNTier.DataAccess.Repositories;
+using Udemy.TodoAppNTier.Entities.Domains;
 
 namespace Udemy.TodoAppNTier.DataAccess.UnitofWork
 {
@@ -18,7 +19,7 @@ namespace Udemy.TodoAppNTier.DataAccess.UnitofWork
             _context = context;
         }
 
-        public IRepository<T> GetRepository<T>() where T : class, new()
+        public IRepository<T> GetRepository<T>() where T :BaseEntity
         {
             return new Repository<T>(_context);
         }

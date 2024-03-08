@@ -4,10 +4,11 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Runtime.Remoting;
 using System.Threading.Tasks;
+using Udemy.TodoAppNTier.Entities.Domains;
 
 namespace Udemy.TodoAppNTier.DataAccess.Interfaces
 {
-    public interface IRepository<T> where T:class,new()
+    public interface IRepository<T> where T:BaseEntity
     {
         Task<List<T>>  GetAll();
         Task<T> GetById(object id);
