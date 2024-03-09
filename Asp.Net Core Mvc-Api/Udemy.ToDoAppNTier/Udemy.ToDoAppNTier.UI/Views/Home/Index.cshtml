@@ -18,6 +18,7 @@
                     <th>Work</th>
                     <th>State</th>
                     <th></th>
+                    <th></th>
                 </tr>
             </thead>
             <tbody>
@@ -26,7 +27,8 @@
                     <tr>
                         <td>@item.Definition</td>
                         <td>@(item.IsCompleted?"Completed":"Not Completed")</td>
-                        <td><a asp-action="Update" asp-controller="Home" asp-route-id="@item.Id" class="btn btn-warning btn-sm d-block w-100 m-2">Update</a></td>
+                        <td><a asp-action="Update" asp-controller="Home" asp-route-id="@item.Id" class="btn btn-warning btn-sm d-block w-100">Update</a></td>
+                        <td><a asp-action="Remove" asp-controller="Home" asp-route-id="@item.Id" class="btn btn-danger btn-sm d-block w-100">Remove</a></td>
                     </tr>
                 }
             </tbody>

@@ -52,10 +52,9 @@ namespace Udemy.TodoAppNTier.Business.Services
             };
         }
 
-        public async Task Remove(object id)
+        public async Task Remove(int id)
         {
-            var deletedItem = await _uow.GetRepository<Work>().GetById(id);
-            _uow.GetRepository<Work>().Remove(deletedItem);
+            _uow.GetRepository<Work>().Remove(id);
             await _uow.SaveChanges();
         }
 

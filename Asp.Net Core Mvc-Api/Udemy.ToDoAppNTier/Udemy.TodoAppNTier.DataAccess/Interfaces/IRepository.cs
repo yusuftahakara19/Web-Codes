@@ -15,7 +15,7 @@ namespace Udemy.TodoAppNTier.DataAccess.Interfaces
         Task<T> GetByFilter(Expression<Func<T,bool>> filter, bool asNoTracking = false);
         Task Create(T entity);
         void Update(T entity);  
-        void Remove(T entity);
+        void Remove(object id);
         IQueryable<T> GetQuery();   
     }
 }
