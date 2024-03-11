@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "iIB80lh8fBEk6Z7Jn63+AB5E92dfPcqkTZZaQTGAkm28gKZUiagxV8HxPvKzHy5KJ+TDVHy0kfg5PDkyE4Ky4g==",
+  "dgSpecHash": "AB7V6WRiO+2syRh4mrPKRz5zZIGur3toe1kKFP0iyN1o9NF4OwpLp8zEwWoCAr1EOYGbHL8vOnYZXnojb0BQEA==",
   "success": true,
   "projectFilePath": "C:\\Users\\tkyusuft\\Desktop\\Web-Codes\\Asp.Net Core Mvc-Api\\Udemy.ToDoAppNTier\\Udemy.ToDoAppNTier.UI\\Udemy.TodoAppNTier.UI.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\tkyusuft\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\tkyusuft\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\tkyusuft\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\tkyusuft\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",
@@ -65,7 +66,7 @@
     "C:\\Users\\tkyusuft\\.nuget\\packages\\system.private.datacontractserialization\\4.3.0\\system.private.datacontractserialization.4.3.0.nupkg.sha512",
     "C:\\Users\\tkyusuft\\.nuget\\packages\\system.private.uri\\4.3.2\\system.private.uri.4.3.2.nupkg.sha512",
     "C:\\Users\\tkyusuft\\.nuget\\packages\\system.reflection\\4.3.0\\system.reflection.4.3.0.nupkg.sha512",
-    "C:\\Users\\tkyusuft\\.nuget\\packages\\system.reflection.emit\\4.3.0\\system.reflection.emit.4.3.0.nupkg.sha512",
+    "C:\\Users\\tkyusuft\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",
     "C:\\Users\\tkyusuft\\.nuget\\packages\\system.reflection.emit.ilgeneration\\4.3.0\\system.reflection.emit.ilgeneration.4.3.0.nupkg.sha512",
     "C:\\Users\\tkyusuft\\.nuget\\packages\\system.reflection.emit.lightweight\\4.3.0\\system.reflection.emit.lightweight.4.3.0.nupkg.sha512",
     "C:\\Users\\tkyusuft\\.nuget\\packages\\system.reflection.extensions\\4.3.0\\system.reflection.extensions.4.3.0.nupkg.sha512",

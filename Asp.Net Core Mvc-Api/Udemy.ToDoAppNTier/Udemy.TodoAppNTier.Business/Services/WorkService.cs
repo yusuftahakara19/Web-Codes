@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using AutoMapper;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 using Udemy.TodoAppNTier.Business.Interfaces;
 using Udemy.TodoAppNTier.DataAccess.Domains;
@@ -10,46 +11,27 @@ namespace Udemy.TodoAppNTier.Business.Services
     public class WorkService : IWorkService
     {
         private readonly IUow _uow;
-
-        public WorkService(IUow uow)
+        private readonly IMapper _mapper;
+        public WorkService(IUow uow, IMapper mapper)
         {
             _uow = uow;
+            _mapper = mapper;
         }
 
         public async Task Create(WorkCreateDto dto)
         {
-           await _uow.GetRepository<Work>().Create(new() { Definition = dto.Definition, IsCompleted = dto.IsCompleted });
-            await _uow.SaveChanges();
+           await _uow.GetRepository<Work>().Create(_mapper.Map<Work>(dto));
+           await _uow.SaveChanges();
         }
 
         public async Task<List<WorkListDto>> GetAll()
         {
-            var list = await _uow.GetRepository<Work>().GetAll();
-            var workList = new List<WorkListDto>(); ;
-
-            if(list.Count > 0)
-            {
-                foreach(var item in list)
-                {
-                    workList.Add(new WorkListDto
-                    {
-                        Id = item.Id,
-                        Definition = item.Definition,
-                        IsCompleted = item.IsCompleted
-                    });
-                }
-            }
-
-            return workList;
-        }
+            return _mapper.Map<List<WorkListDto>>(await _uow.GetRepository<Work>().GetAll());
+         }
 
         public async Task<WorkListDto> GetById(int id)
         {
-            var work = await _uow.GetRepository<Work>().GetByFilter(x => x.Id == id);
-            return new() {
-                Definition = work.Definition,
-                IsCompleted = work.IsCompleted
-            };
+            return _mapper.Map<WorkListDto>(await _uow.GetRepository<Work>().GetByFilter(x => x.Id == id));
         }
 
         public async Task Remove(int id)
@@ -60,14 +42,8 @@ namespace Udemy.TodoAppNTier.Business.Services
 
         public async Task Update(WorkUpdateDto dto)
         {
-            _uow.GetRepository<Work>().Update(new()
-            {
-                Definition = dto.Definition,
-                Id = dto.Id,
-                IsCompleted = dto.IsCompleted
-            });
+            _uow.GetRepository<Work>().Update(_mapper.Map<Work>(dto));
             await _uow.SaveChanges();
         }
-    
     } 
 }

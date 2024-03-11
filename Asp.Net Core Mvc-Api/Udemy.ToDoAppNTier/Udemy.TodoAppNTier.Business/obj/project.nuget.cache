@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "eTrPH/7vRDqEss6Dm8Sr+FDuP1F0daL5Y47mR1Trh5/D1NHS/CJ325uAmDoSfgV2ADFXAsjrLJvE/PFgp2VVxA==",
+  "dgSpecHash": "rKrjJ3pL6EF/qbNLBG5k9+LowuRh8D+nIP+HDYPlygrO9+0YsbShU9ahqC1IjrQTUmtr5cTPJnfgrt1DPLRHkw==",
   "success": true,
   "projectFilePath": "C:\\Users\\tkyusuft\\Desktop\\Web-Codes\\Asp.Net Core Mvc-Api\\Udemy.ToDoAppNTier\\Udemy.TodoAppNTier.Business\\Udemy.TodoAppNTier.Business.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\tkyusuft\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\tkyusuft\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\tkyusuft\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\tkyusuft\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",
     "C:\\Users\\tkyusuft\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.0.1\\microsoft.data.sqlclient.sni.runtime.2.0.1.nupkg.sha512",
     "C:\\Users\\tkyusuft\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.16\\microsoft.entityframeworkcore.5.0.16.nupkg.sha512",
@@ -63,7 +64,7 @@
     "C:\\Users\\tkyusuft\\.nuget\\packages\\system.private.datacontractserialization\\4.3.0\\system.private.datacontractserialization.4.3.0.nupkg.sha512",
     "C:\\Users\\tkyusuft\\.nuget\\packages\\system.private.uri\\4.3.2\\system.private.uri.4.3.2.nupkg.sha512",
     "C:\\Users\\tkyusuft\\.nuget\\packages\\system.reflection\\4.3.0\\system.reflection.4.3.0.nupkg.sha512",
-    "C:\\Users\\tkyusuft\\.nuget\\packages\\system.reflection.emit\\4.3.0\\system.reflection.emit.4.3.0.nupkg.sha512",
+    "C:\\Users\\tkyusuft\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",
     "C:\\Users\\tkyusuft\\.nuget\\packages\\system.reflection.emit.ilgeneration\\4.3.0\\system.reflection.emit.ilgeneration.4.3.0.nupkg.sha512",
     "C:\\Users\\tkyusuft\\.nuget\\packages\\system.reflection.emit.lightweight\\4.3.0\\system.reflection.emit.lightweight.4.3.0.nupkg.sha512",
     "C:\\Users\\tkyusuft\\.nuget\\packages\\system.reflection.extensions\\4.3.0\\system.reflection.extensions.4.3.0.nupkg.sha512",
