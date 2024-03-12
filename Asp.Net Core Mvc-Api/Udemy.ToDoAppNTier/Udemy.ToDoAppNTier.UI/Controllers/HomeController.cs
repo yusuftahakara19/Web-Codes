@@ -9,11 +9,9 @@ namespace Udemy.ToDoAppNTier.UI.Controllers
     public class HomeController : Controller
     {
         private readonly IWorkService _workService;
-        private readonly IMapper _mapper;
         public HomeController(IWorkService workService, IMapper mapper)
         {
             _workService = workService;
-            _mapper = mapper;
         }
 
         public async Task<IActionResult> Index()
@@ -39,9 +37,9 @@ namespace Udemy.ToDoAppNTier.UI.Controllers
 
         public async Task<IActionResult> Update(int id)
         {
-            var dto = await _workService.GetById(id);
+            var dto = await _workService.GetById<WorkUpdateDto>(id);
             
-            return View(_mapper.Map<WorkUpdateDto>(dto));
+            return View(dto);
         }
 
         [HttpPost]
