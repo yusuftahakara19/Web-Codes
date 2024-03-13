@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "AB7V6WRiO+2syRh4mrPKRz5zZIGur3toe1kKFP0iyN1o9NF4OwpLp8zEwWoCAr1EOYGbHL8vOnYZXnojb0BQEA==",
+  "dgSpecHash": "CTsomLhPAOWtIe5f2mc/4fE3bRmumNA8zYCnXVOFi2dnTpiV19batJxTD2FWwinDtXPJ/Fbqelfo3UJek0qt4A==",
   "success": true,
   "projectFilePath": "C:\\Users\\tkyusuft\\Desktop\\Web-Codes\\Asp.Net Core Mvc-Api\\Udemy.ToDoAppNTier\\Udemy.ToDoAppNTier.UI\\Udemy.TodoAppNTier.UI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tkyusuft\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\tkyusuft\\.nuget\\packages\\fluentvalidation\\11.9.0\\fluentvalidation.11.9.0.nupkg.sha512",
+    "C:\\Users\\tkyusuft\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.9.0\\fluentvalidation.dependencyinjectionextensions.11.9.0.nupkg.sha512",
     "C:\\Users\\tkyusuft\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\tkyusuft\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\tkyusuft\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",

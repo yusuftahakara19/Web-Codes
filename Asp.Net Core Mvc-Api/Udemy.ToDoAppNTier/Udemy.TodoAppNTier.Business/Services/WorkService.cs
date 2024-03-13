@@ -1,7 +1,9 @@
 ﻿using AutoMapper;
+using FluentValidation;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using Udemy.TodoAppNTier.Business.Interfaces;
+using Udemy.TodoAppNTier.Business.ValidationRules;
 using Udemy.TodoAppNTier.DataAccess.Domains;
 using Udemy.TodoAppNTier.DataAccess.UnitofWork;
 using Udemy.TodoAppNTier.Dtos.Interfaces;
@@ -13,16 +15,24 @@ namespace Udemy.TodoAppNTier.Business.Services
     {
         private readonly IUow _uow;
         private readonly IMapper _mapper;
-        public WorkService(IUow uow, IMapper mapper)
+        private readonly IValidator<WorkCreateDto> _createDtoValidator;
+        private readonly IValidator<WorkUpdateDto> _updateDtoValidator;
+        public WorkService(IUow uow, IMapper mapper, IValidator<WorkCreateDto> createDtoValidator, IValidator<WorkUpdateDto> updateDtoValidator)
         {
             _uow = uow;
             _mapper = mapper;
+            _updateDtoValidator = updateDtoValidator;
+            _createDtoValidator = createDtoValidator;
         }
 
         public async Task Create(WorkCreateDto dto)
         {
-           await _uow.GetRepository<Work>().Create(_mapper.Map<Work>(dto));
-           await _uow.SaveChanges();
+            var validationResult = _createDtoValidator.Validate(dto);
+            if(validationResult.IsValid)
+            {
+                await _uow.GetRepository<Work>().Create(_mapper.Map<Work>(dto));
+                await _uow.SaveChanges();
+            }
         }
 
         public async Task<List<WorkListDto>> GetAll()
@@ -42,9 +52,12 @@ namespace Udemy.TodoAppNTier.Business.Services
         }
 
         public async Task Update(WorkUpdateDto dto)
-        {
-            _uow.GetRepository<Work>().Update(_mapper.Map<Work>(dto));
-            await _uow.SaveChanges();
+        {   var validationResult = _updateDtoValidator.Validate(dto);
+            if (validationResult.IsValid)
+            {
+                _uow.GetRepository<Work>().Update(_mapper.Map<Work>(dto));
+                await _uow.SaveChanges();
+            }
         }
     } 
 }

@@ -82,3 +82,4 @@ C:\Users\tkyusuft\Desktop\Web-Codes\Asp.Net Core Mvc-Api\Udemy.ToDoAppNTier\Udem
 C:\Users\tkyusuft\Desktop\Web-Codes\Asp.Net Core Mvc-Api\Udemy.ToDoAppNTier\Udemy.ToDoAppNTier.UI\obj\Debug\net5.0\Razor\Views\Home\Create.cshtml.g.cs
 C:\Users\tkyusuft\Desktop\Web-Codes\Asp.Net Core Mvc-Api\Udemy.ToDoAppNTier\Udemy.ToDoAppNTier.UI\obj\Debug\net5.0\Razor\Views\Home\Update.cshtml.g.cs
 C:\Users\tkyusuft\Desktop\Web-Codes\Asp.Net Core Mvc-Api\Udemy.ToDoAppNTier\Udemy.ToDoAppNTier.UI\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\tkyusuft\Desktop\Web-Codes\Asp.Net Core Mvc-Api\Udemy.ToDoAppNTier\Udemy.ToDoAppNTier.UI\bin\Debug\net5.0\FluentValidation.dll
