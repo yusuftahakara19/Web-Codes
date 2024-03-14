@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Runtime.Remoting;
+using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
 using Udemy.TodoAppNTier.DataAccess.Contexts;
@@ -34,7 +35,7 @@ namespace Udemy.TodoAppNTier.DataAccess.Repositories
             return asNoTracking ? await _context.Set<T>().SingleOrDefaultAsync(filter) : await _context.Set<T>().AsNoTracking().SingleOrDefaultAsync(filter);
         }
 
-        public async Task<T> GetById(object id)
+        public async Task<T> Find(object id)
         {
             return await _context.Set<T>().FindAsync(id);
         }
@@ -44,16 +45,14 @@ namespace Udemy.TodoAppNTier.DataAccess.Repositories
             return _context.Set<T>().AsQueryable();
         }
 
-        public void Remove(object id)
-        {
-            var deletedEntity = _context.Set<T>().Find(id); 
-            _context.Set<T>().Remove(deletedEntity);
+        public void Remove(T entity)
+        { 
+            _context.Set<T>().Remove(entity);
         }
 
-        public void Update(T entity)
+        public void Update(T entity,T unchanged)
         {
-            var updatedEntity = _context.Set<T>().Find(entity.Id);
-            _context.Entry(updatedEntity).CurrentValues.SetValues(entity);
+            _context.Entry(unchanged).CurrentValues.SetValues(entity);
         }
     }
 }
