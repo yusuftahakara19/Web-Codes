@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Udemy.TodoAppNTier.Dtos", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Udemy.TodoAppNTier.UI", "Udemy.ToDoAppNTier.UI\Udemy.TodoAppNTier.UI.csproj", "{91090F09-949C-4983-827B-D94D2F4F5233}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Udemy.TodoAppNTier.Common", "Udemy.TodoAppNTier.Common\Udemy.TodoAppNTier.Common.csproj", "{839EDA7D-E949-49C2-B2D5-C51DCF362104}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{91090F09-949C-4983-827B-D94D2F4F5233}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{91090F09-949C-4983-827B-D94D2F4F5233}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{91090F09-949C-4983-827B-D94D2F4F5233}.Release|Any CPU.Build.0 = Release|Any CPU
+		{839EDA7D-E949-49C2-B2D5-C51DCF362104}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{839EDA7D-E949-49C2-B2D5-C51DCF362104}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{839EDA7D-E949-49C2-B2D5-C51DCF362104}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{839EDA7D-E949-49C2-B2D5-C51DCF362104}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
