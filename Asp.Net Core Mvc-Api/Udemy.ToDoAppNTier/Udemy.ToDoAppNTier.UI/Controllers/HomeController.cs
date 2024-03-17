@@ -16,8 +16,8 @@ namespace Udemy.ToDoAppNTier.UI.Controllers
 
         public async Task<IActionResult> Index()
         {
-            var workList = await _workService.GetAll();
-            return View(workList);
+            var response = await _workService.GetAll();
+            return View(response.Data);
         }
         
         public IActionResult Create() {
@@ -37,9 +37,9 @@ namespace Udemy.ToDoAppNTier.UI.Controllers
 
         public async Task<IActionResult> Update(int id)
         {
-            var dto = await _workService.GetById<WorkUpdateDto>(id);
+            var response = await _workService.GetById<WorkUpdateDto>(id);
             
-            return View(dto);
+            return View(response.Data);
         }
 
         [HttpPost]

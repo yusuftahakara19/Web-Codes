@@ -1797,6 +1797,7 @@
           "AutoMapper": "10.1.1",
           "FluentValidation": "11.9.0",
           "FluentValidation.DependencyInjectionExtensions": "11.9.0",
+          "Udemy.TodoAppNTier.Common": "1.0.0",
           "Udemy.TodoAppNTier.DataAccess": "1.0.0",
           "Udemy.TodoAppNTier.Dtos": "1.0.0"
         },
@@ -1805,6 +1806,16 @@
         },
         "runtime": {
           "bin/placeholder/Udemy.TodoAppNTier.Business.dll": {}
+        }
+      },
+      "Udemy.TodoAppNTier.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Udemy.TodoAppNTier.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Udemy.TodoAppNTier.Common.dll": {}
         }
       },
       "Udemy.TodoAppNTier.DataAccess/1.0.0": {
@@ -6166,6 +6177,11 @@
       "type": "project",
       "path": "../Udemy.TodoAppNTier.Business/Udemy.TodoAppNTier.Business.csproj",
       "msbuildProject": "../Udemy.TodoAppNTier.Business/Udemy.TodoAppNTier.Business.csproj"
+    },
+    "Udemy.TodoAppNTier.Common/1.0.0": {
+      "type": "project",
+      "path": "../Udemy.TodoAppNTier.Common/Udemy.TodoAppNTier.Common.csproj",
+      "msbuildProject": "../Udemy.TodoAppNTier.Common/Udemy.TodoAppNTier.Common.csproj"
     },
     "Udemy.TodoAppNTier.DataAccess/1.0.0": {
       "type": "project",
