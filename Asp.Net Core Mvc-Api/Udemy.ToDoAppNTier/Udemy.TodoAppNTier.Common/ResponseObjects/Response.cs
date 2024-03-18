@@ -21,8 +21,6 @@ namespace Udemy.TodoAppNTier.Common.ResponseObjects
             Message = message;
             ResponseType = responseType;
         }
-
-   
     }
 
     public enum ResponseType
