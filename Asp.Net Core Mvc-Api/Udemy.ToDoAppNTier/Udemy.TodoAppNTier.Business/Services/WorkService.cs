@@ -2,6 +2,7 @@
 using FluentValidation;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using Udemy.TodoAppNTier.Business.Extensions;
 using Udemy.TodoAppNTier.Business.Interfaces;
 using Udemy.TodoAppNTier.Business.ValidationRules;
 using Udemy.TodoAppNTier.Common.ResponseObjects;
@@ -36,13 +37,8 @@ namespace Udemy.TodoAppNTier.Business.Services
                 return new Response<WorkCreateDto>(ResponseType.Success, dto);
             }
             else
-            {
-                List<CustomValidationError> errors = new();
-                foreach(var error in validationResult.Errors)
-                {
-                    errors.Add(new() { ErrorMessage = error.ErrorMessage, PropertyName = error.PropertyName });
-                }
-                return new Response<WorkCreateDto>(ResponseType.ValidationError, dto, errors);
+            { 
+                return new Response<WorkCreateDto>(ResponseType.ValidationError, dto, validationResult.ConvertToCustomValidationError());
             }
         }
 
@@ -88,12 +84,7 @@ namespace Udemy.TodoAppNTier.Business.Services
             }
             else
             {
-                List<CustomValidationError> errors = new();
-                foreach (var error in validationResult.Errors)
-                {
-                    errors.Add(new() { ErrorMessage = error.ErrorMessage, PropertyName = error.PropertyName });
-                }
-                return new Response<WorkUpdateDto>(ResponseType.ValidationError, dto, errors);
+                return new Response<WorkUpdateDto>(ResponseType.ValidationError, dto, validationResult.ConvertToCustomValidationError());
             }
         } 
     } 

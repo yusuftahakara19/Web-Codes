@@ -4,6 +4,7 @@ using System.Threading.Tasks;
 using Udemy.TodoAppNTier.Business.Interfaces;
 using Udemy.TodoAppNTier.Common.ResponseObjects;
 using Udemy.TodoAppNTier.Dtos.WorkDtos;
+using Udemy.TodoAppNTier.UI.Extensions;
 
 namespace Udemy.ToDoAppNTier.UI.Controllers
 {
@@ -29,49 +30,25 @@ namespace Udemy.ToDoAppNTier.UI.Controllers
         public async Task<IActionResult> Create(WorkCreateDto dto)
         {
             var response = await _workService.Create(dto);
-            if(response.ResponseType == ResponseType.ValidationError)
-            {
-                foreach(var error in response.ValidationErrors)
-                {
-                    ModelState.AddModelError(error.PropertyName, error.ErrorMessage);
-                }
-                return View(dto);
-            }
-            else
-            {
-                return RedirectToAction("Index");
-            }
+            return this.ResponseRedirectToAction(response, "Index");
         }
 
         public async Task<IActionResult> Update(int id)
         {
             var response = await _workService.GetById<WorkUpdateDto>(id);
-            if (response.ResponseType == ResponseType.NotFound)
-                return NotFound();
-            return View(response.Data);
+            return this.ResponseView(response);
         }
 
         [HttpPost]
         public async Task<IActionResult> Update(WorkUpdateDto dto)
         {
             var response = await _workService.Update(dto);
-            if (response.ResponseType == ResponseType.ValidationError)
-            {
-                foreach (var error in response.ValidationErrors)
-                {
-                    ModelState.AddModelError(error.PropertyName, error.ErrorMessage);
-                }
-                return View(dto);
-            }
-            return RedirectToAction("Index");
+            return this.ResponseRedirectToAction(response, "Index");
         }
-
         public async Task<IActionResult> Remove(int id)
         {
             var response = await _workService.Remove(id);
-            if (response.ResponseType == ResponseType.NotFound)
-                return NotFound();
-            return RedirectToAction("Index");
+            return this.ResponseRedirectToAction(response,"Index");
         }
 
         public IActionResult NotFound(int code)
